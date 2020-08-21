@@ -26,8 +26,14 @@ body {
     color: white;
 }
 
+.navigation-section a {
+    color: black;
+    @extend .is-size-4;
+    @extend .has-text-weight-semibold;
+}
+
 .hero-section .row:first-child {
-    height: 40vh;
+    height: 30vh;
 }
 
 .call-to-action-section {
@@ -41,4 +47,8 @@ body {
 .footer-section {
     background-color: black;
     color: white;
+}
+
+.footer-section a {
+    color: whitesmoke;
 }
