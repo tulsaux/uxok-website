@@ -1,0 +1,40 @@
+---
+---
+@charset "utf-8";
+@import "bulma/bulma.sass";
+
+.row {
+    @extend .columns;
+}
+
+.has-content-centered {
+    @extend .has-text-centered;
+}
+
+.has-content-vertically-centered {
+    @extend .is-vcentered;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.navigation {
+    background-color: #F21651;
+}
+
+.hero {
+    background-color: #F2F2F2;
+}
+
+.speakers-cta {
+    background-color: #04D960;
+}
+
+.sign-up {
+    background-color: #F2B705;
+}
+
+.footer {
+    background-color: #3061F2;
+}
