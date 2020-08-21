@@ -19,22 +19,26 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-.navigation {
-    background-color: #F21651;
+.hero-section {
+    height: 80vh;
+    background-image: url(/images/2021/call-for-speakers-phase-hero.jpg);
+    background-position: 70% 10%;
+    color: white;
 }
 
-.hero {
-    background-color: #F2F2F2;
+.hero-section .row:first-child {
+    height: 40vh;
 }
 
-.speakers-cta {
-    background-color: #04D960;
+.call-to-action-section {
+    height: 30vh;
 }
 
-.sign-up {
-    background-color: #F2B705;
+.sign-up-section {
+    height: 40vh;
 }
 
-.footer {
-    background-color: #3061F2;
+.footer-section {
+    background-color: black;
+    color: white;
 }

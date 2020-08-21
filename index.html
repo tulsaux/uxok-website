@@ -20,32 +20,37 @@
 </head>
 <body>
     <div class="row campaign-section" style="background-color: aqua;">
-        <div class="column">
+        <div class="column has-content-centered has-content-vertically-centered">
             <p>Now accepting speaker submissions! <a href="https://www.papercall.io/uxok-2021">Submit now on PaperCall</a>.</p>
         </div>
     </div>
 
-    <div class="row navigation-section">
-        <div class="column is-2">
-            <img src="/images/2021/uxok-red.svg" alt="User Experience Oklahoma Logo - Header Version">
+    <div class="row is-mobile navigation-section">
+        <div class="column is-4-mobile">
+            <img class="is-hidden-mobile pl-6" src="/images/2021/uxok-red.svg" alt="User Experience Oklahoma Logo - Header Version">
+            <img class="is-hidden-tablet pl-2" src="/images/2021/uxok-red.svg" alt="User Experience Oklahoma Logo - Header Version">
         </div>
 
-        <div class="column is-4"></div>
+        <div class="column is-4 is-hidden-mobile"></div>
 
-        <div class="column">
+        <div class="column has-content-vertically-centered">
             <nav>
                 <a href="#">Speakers</a>
             </nav>
         </div>
     </div>
 
-    <div class="row hero-section" style="background-image: url(/images/2021/call-for-speakers-phase-hero.jpg);">
+    <div class="row hero-section">
         <div class="column">
+            <div class="row"><div class="column"></div></div>
+
             <div class="row">
+                <div class="column is-2"></div>
                 <div class="column">Oklahoma’s First UX Conference</div>
             </div>
 
             <div class="row">
+                <div class="column is-2"></div>
                 <div class="column">
                     <p>Friday, February 5, 2021</p>
                     <p>Philbrook Museum / Virtual</p>
@@ -57,13 +62,12 @@
         <div class="column"></div>
     </div>
 
-    <div class="row call-to-action-section">
-
+    <div class="row call-to-action-section px-6 py-6 has-content-centered">
         <div class="column">
             <div class="row">
                 <div class="column">
                     <p>Call for Speakers</p>
-                </div>S
+                </div>
             </div>
 
             <div class="row">
@@ -74,13 +78,15 @@
 
             <div class="row">
                 <div class="column">
-                    <button>Submit Talk on PaperCall</button>
+                    <div class="control">
+                        <button class="button">Submit Talk on PaperCall</button>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 
-    <div class="row sign-up-section" style="background-color: aquamarine;">
+    <div class="row sign-up-section px-6 py-6" style="background-color: aquamarine;">
         <div class="column">
             <div class="row">
                 <div class="column">
@@ -96,7 +102,12 @@
 
             <div class="row">
                 <div class="column">
-                    <button>Sign Up</button>
+                    <input class="input" type="text" placeholder="First Name">
+                    <input class="input" type="text" placeholder="Email">
+
+                    <div class="control">
+                        <button class="button">Sign Up</button>
+                    </div>
                 </div>
             </div>
 
@@ -109,17 +120,18 @@
     </div>
 
     <div class="row code-of-conduct-section">
-        <div class="column">
+        <div class="column px-6 py-4">
             <p>Before attending the conference, please review the Techlahoma <a href="https://www.techlahoma.org/code-of-conduct">Code of Conduct</a>. The Code of Conduct applies to all attendees, speakers, volunteers, and vendors at official and unofficial events by Techlahoma and any location where attendees may be congregating. <a href="mailto:hello@uxok.org">Contact us</a> if you have questions.</p>
         </div>
     </div>
 
     <footer>
-        <div class="row footer-section">
+        <div class="row is-mobile footer-section">
             <div class="column is-2">
                 <div class="row">
                     <div class="column">
-                        <img src="/images/2021/uxok-white.svg" alt="User Experience Oklahoma Logo - Footer Version">
+                        <img class="is-hidden-mobile pl-4" src="/images/2021/uxok-white.svg" alt="User Experience Oklahoma Logo - Footer Version">
+                        <img class="is-hidden-tablet pl-2" src="/images/2021/uxok-white.svg" alt="User Experience Oklahoma Logo - Footer Version">
                     </div>
                 </div>
 
