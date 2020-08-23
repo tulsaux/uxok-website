@@ -19,17 +19,21 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-.hero-section {
-    height: 80vh;
-    background-image: url(/images/2021/call-for-speakers-phase-hero.jpg);
-    background-position: 70% 10%;
-    color: white;
+.campaign-section {
+    height: 6vh;
 }
 
 .navigation-section a {
     color: black;
     @extend .is-size-4;
     @extend .has-text-weight-semibold;
+}
+
+.hero-section {
+    height: 80vh;
+    background-image: url(/images/2021/call-for-speakers-phase-hero.jpg);
+    background-position: 70% 10%;
+    color: white;
 }
 
 .hero-section .row:first-child {
@@ -44,6 +48,10 @@ body {
     height: 40vh;
 }
 
+.code-of-conduct-section {
+
+}
+
 .footer-section {
     background-color: black;
     color: white;
@@ -51,4 +59,47 @@ body {
 
 .footer-section a {
     color: whitesmoke;
+}
+
+// cell phone queries
+@media (max-width: 720px) {
+    .campaign-section {
+        height: 10vh;
+    }
+
+    .navigation-section a {
+        color: black;
+    }
+
+    .hero-section {
+        height: 80vh;
+        background-image: url(/images/2021/call-for-speakers-phase-hero.jpg);
+        background-position: 70% 10%;
+        color: white;
+    }
+
+    .hero-section .row:first-child {
+        height: 30vh;
+    }
+
+    .call-to-action-section {
+        height: 30vh;
+    }
+
+    .sign-up-section {
+        height: 40vh;
+    }
+
+    .code-of-conduct-section {
+
+    }
+
+    .footer-section {
+        background-color: black;
+        color: white;
+    }
+
+    .footer-section a {
+        color: whitesmoke;
+    }
 }

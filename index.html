@@ -12,11 +12,44 @@
     <link rel=“stylesheet” href=“https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css” integrity=“sha256-PHcOkPmOshsMBC+vtJdVr5Mwb7r0LkSVJPlPrp/IMpU=” crossorigin=“anonymous”/>
 
     <script data-goatcounter="https://uxok.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
-    <script defer src="https://cdn.jsdelivr.net/npm/vue@2.6.11" integrity="sha384-OZmxTjkv7EQo5XDMPAmIkkvywVeXw59YyYh6zq8UKfkbor13jS+5p8qMTBSA1q+F" crossorigin="anonymous"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/vue@2.6.12" integrity="sha384-cwVe6U8Tq7F/3JIj6xeDzOwuqeChcmRcdYqDGfoYmdAurw7L3f4dFHhEJKfxv96A" crossorigin="anonymous"></script>
     <script defer src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
     <script defer src="https://unpkg.com/@barba/core" integrity="sha384-sijvFrapGyCJSjfjNjjA9r6pP/4fj3yhYvRQ1VUPZ5h6hcxs1o4DM7G7LayM337a" crossorigin="anonymous"></script>
     <script defer src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.4/gsap.min.js" integrity="sha384-xGP7bhH4qqCq8UYd07tSLM3s400jmgk0rEXPLskvQPAUM/YVKRu1sfUPIaOb4haJ" crossorigin="anonymous"></script>
     <script defer src="https://smtpjs.com/v3/smtp.js" integrity="sha384-BlzKAJKzmAhlBrGVWsQWgiGHT6fOW6f8bcsC6/QqTQdTHTWjXJndLfcSqbanRP9e" crossorigin="anonymous"></script>
+
+    <script type="text/javascript">
+        document.addEventListener('DOMContentLoaded', function () {
+            new Vue({
+                el: "#notification-form",
+                data: {
+                    name : "",
+                    email : "",
+                },
+                methods: {
+                    submitNotificationForm: function () {
+                        console.log("Posting email address.");
+                        fetch("https://v2-api.sheety.co/13d26148e15f7a22105200ebb373c845/uxokApi/newsletterRegistrations", {
+                            method: "POST",
+                            headers: {
+                                'Content-Type': 'application/json'
+                            },
+                            body: JSON.stringify({
+                                newsletterRegistration : {
+                                    firstName : this.name,
+                                    email : this.email
+                                }
+                            })
+                        }).then(function(data) {
+                            console.log(data);
+                        }).then(function(error) {
+                            console.log(error);
+                        })
+                    }
+                }
+            });
+        });
+    </script>
 </head>
 <body>
     <div class="row campaign-section" style="background-color: aquamarine;">
@@ -106,12 +139,12 @@
             </div>
 
             <div class="row">
-                <div class="column">
-                    <input class="input" type="text" placeholder="First Name">
-                    <input class="input" type="text" placeholder="Email">
+                <div id="notification-form" class="column">
+                    <input class="input" type="text" placeholder="First Name" v-model="name">
+                    <input class="input" type="text" placeholder="Email" v-model="email">
 
                     <div class="control">
-                        <button class="button">Sign Up</button>
+                        <button class="button" v-on:click="submitNotificationForm">Sign Up</button>
                     </div>
                 </div>
             </div>
