@@ -45,7 +45,6 @@
 					<div class="column has-content-vertically-centered pr-6">
 						<nav class="level">
 							<p class="level-item"><a href="#call-to-action">Speakers</a></p>
-							<p class="level-item"><a href="#call-to-action">Test</a></p>
 							<p class="level-item">
 							<div class="control">
 								<a class="button is-small" href="https://www.papercall.io/uxok-2021">Submit CFP</a>
@@ -99,104 +98,105 @@
 				</div>
 			</section>
 
+			<section style="background-color: aquamarine;">
+				<div class="container p-6">
+					<div class="row sign-up-section px-6 py-6">
+						<div class="column has-content-centered">
+							<div class="row">
+								<div class="column is-size-3 has-text-weight-bold lh1">
+									<p>Want to be the first to know when tickets go on sale?</p>
+								</div>
+							</div>
 
+							<div class="row">
+								<div class="column">
+									<p class="">We can let you know when tickets are for sale, along with speaker announcements and other updates about the upcoming 2021 UXOK conference</p>
+								</div>
+							</div>
 
-			<div class="row sign-up-section px-6 py-6" style="background-color: aquamarine;">
-				<div class="column has-content-centered">
-					<div class="row">
-						<div class="column is-size-3 has-text-weight-bold">
-							<p>Want to be the first to know when tickets go on sale?</p>
-						</div>
-					</div>
+							<div class="row">
+								<div id="notification-form" class="column">
+									<div class="container mw800">
+										<div class="columns is-desktop">
+											<div class="column">
+												<input class="input" type="text" placeholder="First Name" v-model="name">
+											</div>
+											<div class="column">
+												<input class="input" type="text" placeholder="Email" v-model="email">
+											</div>
+											<div class="column">
+												<button class="button" v-on:click="submitNotificationForm">Sign Up</button>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
 
-					<div class="row">
-						<div class="column">
-							<p>We can let you know when tickets are for sale, along with speaker announcements and other updates about the upcoming 2021 UXOK conference</p>
-						</div>
-					</div>
-
-					<div class="row">
-						<div id="notification-form" class="column">
-							<input class="input mb-4" type="text" placeholder="First Name" v-model="name">
-							<input class="input mb-4" type="text" placeholder="Email" v-model="email">
-
-							<div class="control mb-4">
-								<button class="button" v-on:click="submitNotificationForm">Sign Up</button>
+							<div class="row">
+								<div class="column">
+									<p class="is-italic is-size-6">* We will not use this email address for anything other than UXOK updates. We will not, in any circumstances, share or sell your information with other individuals or organizations
+										without
+										your permission.</p>
+								</div>
 							</div>
 						</div>
 					</div>
+				</div>
+			</section>
 
-					<div class="row">
+			<section class="code-of-conduct-section">
+				<div class="container py-6">
+					<div class="row ">
 						<div class="column">
-							<p class="is-italic is-size-6">* We will not use this email address for anything other than UXOK updates. We will not, in any circumstances, share or sell your information with other individuals or organizations without your permission.</p>
+							<p>Before attending the conference, please review the Techlahoma <a href="https://www.techlahoma.org/code-of-conduct">Code of Conduct</a>. The Code of Conduct applies to all attendees, speakers, volunteers, and vendors at
+								official and unofficial events by Techlahoma and any location where attendees may be congregating. <a href="mailto:hello@uxok.org">Contact us</a> if you have questions.</p>
 						</div>
 					</div>
 				</div>
-			</div>
-
-			<div class="row code-of-conduct-section">
-				<div class="column px-6 py-4">
-					<p>Before attending the conference, please review the Techlahoma <a href="https://www.techlahoma.org/code-of-conduct">Code of Conduct</a>. The Code of Conduct applies to all attendees, speakers, volunteers, and vendors at official and unofficial
-						events by Techlahoma and any location where attendees may be congregating. <a href="mailto:hello@uxok.org">Contact us</a> if you have questions.</p>
-				</div>
-			</div>
+			</section>
 		</main>
 
 
 
-		<footer>
-			<div class="row is-mobile footer-section">
-				<div class="column is-2">
-					<div class="row">
-						<div class="column">
-							<img class="is-hidden-mobile pl-4" src="/images/2021/uxok-white.svg" alt="User Experience Oklahoma Logo - Footer Version">
-							<img class="is-hidden-tablet pl-2" src="/images/2021/uxok-white.svg" alt="User Experience Oklahoma Logo - Footer Version">
+		<footer class="footer-section pb-3">
+			<div class="container pt-5">
+				<div class="columns">
+					<div class="column is-one-quarter">
+						<img class="footer-logo mb-3" src="/images/2021/uxok-white.svg" alt="User Experience Oklahoma Logo - Footer Version">
+						<div class="columns is-mobile is-centered is-narrow">
+							<div class="column">
+								<a href="mailto:hello@uxok.org">
+									<i class="far fa-envelope"></i>
+								</a>
+							</div>
+
+							<div class="column">
+								<a href="https://www.twitter.com/uxokconf/">
+									<i class="fab fa-twitter"></i>
+								</a>
+							</div>
+
+							<div class="column">
+								<a href="https://www.instagram.com/uxokconf/">
+									<i class="fab fa-instagram"></i>
+								</a>
+							</div>
+
+							<div class="column">
+								<a href="https://github.com/uxok">
+									<i class="fab fa-github"></i>
+								</a>
+							</div>
 						</div>
 					</div>
-
-					<div class="row">
-						<div class="column">
-							<a href="mailto:hello@uxok.org">
-								<i class="far fa-envelope"></i>
-							</a>
-						</div>
-
-						<div class="column">
-							<a href="https://www.twitter.com/uxokconf/">
-								<i class="fab fa-twitter"></i>
-							</a>
-						</div>
-
-						<div class="column">
-							<a href="https://www.instagram.com/uxokconf/">
-								<i class="fab fa-instagram"></i>
-							</a>
-						</div>
-
-						<div class="column">
-							<a href="https://github.com/uxok">
-								<i class="fab fa-github"></i>
-							</a>
-						</div>
-					</div>
-
-					<div class="row">
-						<div class="column">
-							<p>&copy; 2020 Techlahoma</p>
-						</div>
+					<div class="column is-one-half is-offset-quarter">
+						<ul class="has-text-right ul-reset">
+							<li><a href="mailto:hello@uxok.org">Sponsors</a></li>
+							<li><a href="https://www.techlahoma.org/code-of-conduct">Code of Conduct</a></li>
+						</ul>
 					</div>
 				</div>
-
-				<div class="column is-mobile is-4">
-
-				</div>
-
-				<div class="column">
-					<ul>
-						<li><a href="mailto:hello@uxok.org">Sponsors</a></li>
-						<li><a href="https://www.techlahoma.org/code-of-conduct">Code of Conduct</a></li>
-					</ul>
-				</div>
+				<p>&copy; 2020 Techlahoma</p>
 			</div>
 		</footer>
 	</body>

@@ -97,6 +97,10 @@ body {
 
 }
 
+.footer-logo {
+  max-width: 200px;
+}
+
 .footer-section {
     background-color: black;
     color: white;
@@ -104,6 +108,15 @@ body {
 
 .footer-section a {
     color: whitesmoke;
+}
+
+.ul-reset {
+  margin: 0;
+  padding: 0;
+  li {
+    display: inline-block;
+    margin-left: 1em;
+  }
 }
 
 // cell phone queries
