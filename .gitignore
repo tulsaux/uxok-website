@@ -98,3 +98,10 @@ typings/
 
 # DynamoDB Local files
 .dynamodb/
+
+# SASS
+.sass-cache
+
+# Ruby
+vendor
+.bundle
