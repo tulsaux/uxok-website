@@ -18,13 +18,12 @@
 		<script defer src="https://unpkg.com/@barba/core" integrity="sha384-sijvFrapGyCJSjfjNjjA9r6pP/4fj3yhYvRQ1VUPZ5h6hcxs1o4DM7G7LayM337a" crossorigin="anonymous"></script>
 		<script defer src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.4/gsap.min.js" integrity="sha384-xGP7bhH4qqCq8UYd07tSLM3s400jmgk0rEXPLskvQPAUM/YVKRu1sfUPIaOb4haJ" crossorigin="anonymous"></script>
 		<script defer src="https://smtpjs.com/v3/smtp.js" integrity="sha384-BlzKAJKzmAhlBrGVWsQWgiGHT6fOW6f8bcsC6/QqTQdTHTWjXJndLfcSqbanRP9e" crossorigin="anonymous"></script>
-
-		<script type="text/javascript" src"/app.js"></script>
+		<script type="text/javascript" src="/assets/app.js"></script>
 	</head>
 
 	<body>
 		<div class="campaign-section">
-			<div class="container py-2">
+			<div class="container py-2 px-2">
 				<div class="row">
 					<div class="column has-content-centered has-content-vertically-centered">
 						<p>Now accepting speaker submissions! <a href="https://www.papercall.io/uxok-2021">Submit now on PaperCall</a>.</p>
@@ -34,7 +33,64 @@
 		</div>
 
 		<header>
+
 			<div class="container">
+				<nav class="navbar" role="navigation" aria-label="main navigation">
+					<div class="navbar-brand">
+						<a class="navbar-item" href="https://bulma.io">
+							<img class="logo" src="/images/2021/uxok-red.svg">
+						</a>
+						<a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="headerNav">
+							<span aria-hidden="true"></span>
+							<span aria-hidden="true"></span>
+							<span aria-hidden="true"></span>
+						</a>
+					</div>
+					<div id="headerNav" class="navbar-menu">
+						<!-- <div class="navbar-start">
+							<a class="navbar-item">
+								Home
+							</a>
+
+							<a class="navbar-item">
+								Documentation
+							</a>
+
+							<div class="navbar-item has-dropdown is-hoverable">
+								<a class="navbar-link">
+									More
+								</a>
+
+								<div class="navbar-dropdown">
+									<a class="navbar-item">
+										About
+									</a>
+									<a class="navbar-item">
+										Jobs
+									</a>
+									<a class="navbar-item">
+										Contact
+									</a>
+									<hr class="navbar-divider">
+									<a class="navbar-item">
+										Report an issue
+									</a>
+								</div>
+							</div>
+						</div> -->
+						<div class="navbar-end">
+							<div class="navbar-item">
+								<div class="buttons">
+									<a href="https://www.papercall.io/uxok-2021" class="button is-primary">
+										<strong>Submit Talk</strong>
+									</a>
+								</div>
+							</div>
+						</div>
+				</nav>
+			</div>
+
+			<!-- <div class="container">
 				<div class="row is-mobile navigation-section level py-4">
 					<div class="column is-4-mobile logo pl-6">
 						<img class="" src="/images/2021/uxok-red.svg" alt="User Experience Oklahoma Logo - Header Version">
@@ -44,16 +100,18 @@
 
 					<div class="column has-content-vertically-centered pr-6">
 						<nav class="level">
-							<p class="level-item"><a href="#call-to-action">Speakers</a></p>
 							<p class="level-item">
 							<div class="control">
-								<a class="button is-small" href="https://www.papercall.io/uxok-2021">Submit CFP</a>
+								<div class="buttons are-normal">
+									<a class="button is-outlined" href="#call-to-action">Speakers</a>
+									<a class="button is-primary" href="https://www.papercall.io/uxok-2021">Submit CFP</a>
+								</div>
 							</div>
 							</p>
 						</nav>
 					</div>
 				</div>
-			</div>
+			</div> -->
 		</header>
 
 		<main>
@@ -101,7 +159,7 @@
 			<section style="background-color: aquamarine;">
 				<div class="container p-6">
 					<div class="row sign-up-section px-6 py-6">
-						<div class="column has-content-centered">
+						<div class="column has-content-centered mw800 container">
 							<div class="row">
 								<div class="column is-size-3 has-text-weight-bold lh1">
 									<p>Want to be the first to know when tickets go on sale?</p>
@@ -125,7 +183,7 @@
 												<input class="input" type="text" placeholder="Email" v-model="email">
 											</div>
 											<div class="column">
-												<button class="button" v-on:click="submitNotificationForm">Sign Up</button>
+												<button class="button is-fullwidth" v-on:click="submitNotificationForm">Sign Up</button>
 											</div>
 										</div>
 									</div>
@@ -145,7 +203,7 @@
 			</section>
 
 			<section class="code-of-conduct-section">
-				<div class="container py-6">
+				<div class="container py-6 mw800">
 					<div class="row ">
 						<div class="column">
 							<p>Before attending the conference, please review the Techlahoma <a href="https://www.techlahoma.org/code-of-conduct">Code of Conduct</a>. The Code of Conduct applies to all attendees, speakers, volunteers, and vendors at
@@ -160,7 +218,33 @@
 
 		<footer class="footer-section pb-3">
 			<div class="container pt-5">
-				<div class="columns">
+				<nav class="navbar" role="navigation" aria-label="main navigation">
+					<div class="navbar-brand">
+						<a class="navbar-item" href="https://bulma.io">
+							<img class="logo" src="/images/2021/uxok-white.svg">
+						</a>
+						<a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="footerNav">
+							<span aria-hidden="true"></span>
+							<span aria-hidden="true"></span>
+							<span aria-hidden="true"></span>
+						</a>
+					</div>
+					<div id="footerNav" class="navbar-menu">
+						<div class="navbar-end">
+							<div class="navbar-item">
+								<div class="buttons">
+									<!-- <a href="https://www.papercall.io/uxok-2021" class="button is-primary">
+										<strong>Submit Talk</strong>
+									</a> -->
+									<a class="button is-primary is-outlined" href="mailto:hello@uxok.org">Sponsors</a>
+									<a class="button is-primary is-outlined	" href="https://www.techlahoma.org/code-of-conduct">Code of Conduct</a>
+
+								</div>
+							</div>
+						</div>
+					</div>
+				</nav>
+				<!-- <div class="columns">
 					<div class="column is-one-quarter">
 						<img class="footer-logo mb-3" src="/images/2021/uxok-white.svg" alt="User Experience Oklahoma Logo - Footer Version">
 						<div class="columns is-mobile is-centered is-narrow">
@@ -190,13 +274,32 @@
 						</div>
 					</div>
 					<div class="column is-one-half is-offset-quarter">
-						<ul class="has-text-right ul-reset">
-							<li><a href="mailto:hello@uxok.org">Sponsors</a></li>
-							<li><a href="https://www.techlahoma.org/code-of-conduct">Code of Conduct</a></li>
-						</ul>
+						<div class="buttons">
+							<a class="button is-outlined" href="mailto:hello@uxok.org">Sponsors</a>
+							<a class="button is-outlined" href="https://www.techlahoma.org/code-of-conduct">Code of Conduct</a>
+						</div>
 					</div>
 				</div>
-				<p>&copy; 2020 Techlahoma</p>
+				<p>&copy; 2020 Techlahoma</p> -->
+				<div class="pl-2">
+					<a class="icon has-text-white" href="mailto:hello@uxok.org">
+						<i class="far fa-envelope"></i>
+					</a>
+
+					<a class="icon has-text-white" href="https://www.twitter.com/uxokconf/">
+						<i class="fab fa-twitter"></i>
+					</a>
+
+					<a class="icon has-text-white" href="https://www.instagram.com/uxokconf/">
+						<i class="fab fa-instagram"></i>
+					</a>
+
+					<a class="icon has-text-white" href="https://github.com/uxok">
+						<i class="fab fa-github"></i>
+					</a>
+
+				</div>
+				<p class="mt-2 pl-2">&copy; 2020 Techlahoma</p>
 			</div>
 		</footer>
 	</body>
