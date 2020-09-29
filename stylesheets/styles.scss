@@ -3,6 +3,12 @@
 @charset "utf-8";
 @import "bulma/bulma.sass";
 
+
+$green: #00DC73;
+$primary: $green;
+$white: #FFFFFF;
+$pink: #F73363;
+
 .row {
     @extend .columns;
 }
@@ -17,56 +23,126 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    font-size: 16px;
 }
 
 .campaign-section {
-    height: 6vh;
+    background: $green;
+    margin: 0;
+    padding: 0;
+    p {
+      margin: 0;
+      padding: 0;
+    }
+    a {
+      display: inline-block;
+    }
+}
+
+// .logo img {
+//   max-width: 170px;
+// }
+
+.logo {
+  display: block;
+  height: 40px;
+  max-width: 170px;
+
+}
+
+.button.primary {
+  background-color: $pink;
+  font-weight: bold;
+  color: $white;
 }
 
 .navigation-section a {
-    color: black;
-    @extend .is-size-4;
-    @extend .has-text-weight-semibold;
+    // color: black;
+    // @extend .is-size-5;
+    // @extend .has-text-weight-bold;
 }
+
+.control {
+  display: flex;
+  align-items: center;
+}
+
+.button.is-primary {
+  background: $green;
+  &:hover {
+    background: darken($green, 5%);
+  }
+}
+
+// .control a {
+//   background: $green;
+//   border-radius: 0.5rem;
+//   color: $white;
+// }
 
 .hero-section {
     height: 80vh;
     background-image: url(/images/2021/call-for-speakers-phase-hero.jpg);
     background-position: 70% 10%;
     color: white;
+    display: flex;
+    align-items: center;
 }
 
-.hero-section .row:first-child {
-    height: 30vh;
+.lh1 {
+    line-height: 1em;
 }
 
-.call-to-action-section {
-    height: 30vh;
+// .hero-section .row:first-child {
+//     height: 30vh;
+// }
+
+// .call-to-action-section {
+//     height: 30vh;
+// }
+
+.mw800 {
+  max-width: 800px;
 }
 
 .sign-up-section {
-    height: 40vh;
+    // height: 40vh;
 }
 
 .code-of-conduct-section {
 
 }
 
-.footer-section {
-    background-color: black;
-    color: white;
+footer {
+  .navbar {
+    background: none;
+  }
 }
 
-.footer-section a {
-    color: whitesmoke;
+.footer-logo {
+  max-width: 200px;
 }
+
+.footer-section {
+    background-color: black;
+    // color: white;
+}
+
+// .footer-section a {
+//     color: whitesmoke;
+// }
+
+// .ul-reset {
+//   margin: 0;
+//   padding: 0;
+//   li {
+//     display: inline-block;
+//     margin-left: 1em;
+//   }
+// }
 
 // cell phone queries
 @media (max-width: 720px) {
-    .campaign-section {
-        height: 10vh;
-    }
-
     .navigation-section a {
         color: black;
     }
@@ -78,28 +154,16 @@ body {
         color: white;
     }
 
-    .hero-section .row:first-child {
-        height: 30vh;
-    }
-
-    .call-to-action-section {
-        height: 30vh;
-    }
-
-    .sign-up-section {
-        height: 40vh;
-    }
-
     .code-of-conduct-section {
 
     }
 
     .footer-section {
         background-color: black;
-        color: white;
+        // color: white;
     }
 
-    .footer-section a {
-        color: whitesmoke;
-    }
+    // .footer-section a {
+    //     color: whitesmoke;
+    // }
 }
