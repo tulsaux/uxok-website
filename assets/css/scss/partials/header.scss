@@ -1,0 +1,15 @@
+// Header
+// ----------------------------------------------------------------------------
+
+header {
+	.logo {
+		outline: 1px solid red;
+		display: block;
+
+		img {
+			display: block;
+			width: 200px;
+			max-width: 100%;
+		}
+	}
+}

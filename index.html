@@ -1,307 +1,181 @@
----
----
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr">
 
 	<head>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Techlahoma - UXOK - UX Conference</title>
-		<link rel="stylesheet" type="text/css" href="/stylesheets/styles.css">
-		<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.12.0/css/all.css" integrity="sha384-ekOryaXPbeCpWQNxMwSWVvQ0+1VrStoPJq54shlYhR8HzQgig1v5fas6YgOqLoKz" crossorigin="anonymous">
-		<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
-		<link rel=“stylesheet” href=“https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css” integrity=“sha256-PHcOkPmOshsMBC+vtJdVr5Mwb7r0LkSVJPlPrp/IMpU=” crossorigin=“anonymous” />
+		<meta charset="utf-8">
+		<title>UXOK Design Conference | Techlahoma</title>
+		<meta name='viewport' content='width=device-width, initial-scale=1, viewport-fit=cover'>
 
-		<script data-goatcounter="https://uxok.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
-		<script defer src="https://cdn.jsdelivr.net/npm/vue@2.6.12" integrity="sha384-cwVe6U8Tq7F/3JIj6xeDzOwuqeChcmRcdYqDGfoYmdAurw7L3f4dFHhEJKfxv96A" crossorigin="anonymous"></script>
-		<script defer src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-		<script defer src="https://unpkg.com/@barba/core" integrity="sha384-sijvFrapGyCJSjfjNjjA9r6pP/4fj3yhYvRQ1VUPZ5h6hcxs1o4DM7G7LayM337a" crossorigin="anonymous"></script>
-		<script defer src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.4/gsap.min.js" integrity="sha384-xGP7bhH4qqCq8UYd07tSLM3s400jmgk0rEXPLskvQPAUM/YVKRu1sfUPIaOb4haJ" crossorigin="anonymous"></script>
-		<script defer src="https://smtpjs.com/v3/smtp.js" integrity="sha384-BlzKAJKzmAhlBrGVWsQWgiGHT6fOW6f8bcsC6/QqTQdTHTWjXJndLfcSqbanRP9e" crossorigin="anonymous"></script>
-		<script type="text/javascript" src="/assets/app.js"></script>
+		<script src="https://kit.fontawesome.com/fc3cf0738c.js" crossorigin="anonymous"></script>
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet"> 		<link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+		<link rel="stylesheet" href="assets/css/style.css">
 	</head>
 
 	<body>
-		<div class="campaign-section">
-			<div class="container py-2 px-2">
-				<div class="row">
-					<div class="column has-content-centered has-content-vertically-centered">
-						<p>Now accepting speaker submissions! <a href="https://www.papercall.io/uxok-2021">Submit now on PaperCall</a>.</p>
-					</div>
+		<header>
+			<div class="max-w-screen-xl container mx-auto p-4">
+				<div class="flex items-center justify-between relative">
+					<a class="logo" href="#">
+						<img alt="UXOK" src="assets/images/2021/uxok-red.svg" />
+					</a>
+					<nav>
+						<a class="sm:hidden" href="#"> <i class="fa fa-bars"></i> </a>
+						<ul class="list-none hidden w-full bg-white sm:flex sm:block sm:relative absolute
+						left-0 sm:left-auto">
+							<li class="sm:mr-4"><a href="#speakers" class="hover:underline" href="#">Speakers</a></li>
+							<li class="sm:mr-4"><a href="#sponsors" class="hover:underline" href="#">Sponsors</a></li>
+							<li class="sm:mr-4"><a href="#faqs" class="hover:underline" href="#">FAQs</a></li>
+							<li class=""><a class="py-2 px-4 text-white rounded bg-red-500 hover:bg-red-600" href="#">Get Tickets</a></li>
+						</ul>
+					</nav>
 				</div>
 			</div>
-		</div>
-
-		<header>
-
-			<div class="container">
-				<nav class="navbar" role="navigation" aria-label="main navigation">
-					<div class="navbar-brand">
-						<a class="navbar-item" href="https://bulma.io">
-							<img class="logo" src="/images/2021/uxok-red.svg">
-						</a>
-						<a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="headerNav">
-							<span aria-hidden="true"></span>
-							<span aria-hidden="true"></span>
-							<span aria-hidden="true"></span>
-						</a>
+		</header>
+		<main>
+			<section class="hero py-16">
+				<div class="max-w-screen-xl container mx-auto p-4 ">
+					<h1 class="text-4xl mb-2 font-bold">Oklahoma’s <span class="font-black">First</span> UX Conference</h1>
+					<h2 class="mb-6 text-2xl font-bold">Friday, February 5, 2021</h2>
+					<a class="py-2 px-4 text-white rounded bg-red-500 hover:bg-red-600" href="#">Get Early Bird Ticket</a>
+				</div>
+			</section>
+			<section id="about" class="mb-4">
+				<div class="container mx-auto max-w-screen-xl px-4 py-4 ">
+					<h2 class="text-3xl font-bold max-w-screen-md mb-4">UXOK is a design conference that focuses on user experience and related tech that make the web accessible, delightful and functional.</h2>
+					<p class="max-w-screen-md">UXOK is organized and backed by <a class="text-red-500 underline" href="https://www.techlahoma.org/">Techlahoma</a> – a volunteer-run 501(c)3 non-profit. Techlahoma is dedicated to advancing Oklahomans through accessible tech training and community building.</p>
+				</div>
+			</section>
+			<section id="speakers" class="mb-4 py-8 bg-gray-100">
+				<div class="container mx-auto max-w-screen-xl px-4">
+					<div class="sm:flex items-center mb-6 text-center sm:text-left">
+						<h2 class="text-3xl font-bold max-w-screen-md  bg-blue-400 mb-2 sm:mb-0 inline-block py-2 px-4">Speakers </h2>
+						<span class="ml-4 text-3xl font-bold block">Announced Soon!</span>
 					</div>
-					<div id="headerNav" class="navbar-menu">
-						<!-- <div class="navbar-start">
-							<a class="navbar-item">
-								Home
-							</a>
+					<ul class="flex speaker-list mb-4 flex-wrap md:flex-nowrap">
+						<li class="w-1/2 sm:w-1/4 md:w-1/5 pr-4 mb-4 md:mb-0">
+							<span class="block bg-gray-300 w-full py-16 text-center">
+								<i class="fa fa-user text-gray-900 text-6xl"></i>
+							</span>
+						</li>
+						<li class="w-1/2 sm:w-1/4 md:w-1/5 sm:pr-4 mb-4 md:mb-0">
+							<span class="block bg-gray-300 w-full py-16 text-center ">
+								<i class="fa fa-user text-gray-900 text-6xl"></i>
+							</span>
+						</li>
+						<li class="w-1/2 sm:w-1/4 md:w-1/5 pr-4">
+							<span class="block bg-gray-300 w-full py-16 text-center">
+								<i class="fa fa-user text-gray-900 text-6xl"></i>
+							</span>
+						</li>
+						<li class="w-1/2 sm:w-1/4 md:w-1/5 md:pr-4">
+							<span class="block bg-gray-300 w-full py-16 text-center">
+								<i class="fa fa-user text-gray-900 text-6xl"></i>
+							</span>
+						</li>
+						<li class="hidden md:block w-1/2 md:w-1/5">
+							<span class="block bg-gray-300 w-full py-16 text-center ">
+								<i class="fa fa-user text-gray-900 text-6xl"></i>
+							</span>
+						</li>
+					</ul>
+				</div>
+			</section>
+			<section id="sponsors" class="mb-4">
+				<div class="container mx-auto max-w-screen-xl px-4 border-b-2 py-4 pb-8 mb-4">
+					<h2 class="text-3xl font-bold max-w-screen-md mb-4 bg-blue-400 inline-block py-2 px-4">Sponsors</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					<div class="bg-green-200">
+						<form class="" action="index.html" method="post">
+							<label for="">Email</label>
+							<input type="text" name="" value="">
+							<input type="subit" name="" value="">
+						</form>
+					</div>
+				</div>
+			</section>
+			<section id="faqs">
+				<div class="container mx-auto max-w-screen-xl px-4 border-b-2 py-4 mb-4">
+					<h2>FAQs</h2>
+					<ul class="list-none">
+						<li class="mb-4">
+							<strong class="block text-lg">How much does it cost to attend?</strong>
+							<p>It's free!</p>
+						</li>
+						<li class="mb-4">
+							<strong class="block text-lg">Lorem ipsum dolor sit amet?</strong>
+							<p>consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+						</li>
+						<li class="mb-4">
+							<strong class="block text-lg">Lorem ipsum dolor sit amet?</strong>
+							<p>consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+						</li>
+						<li class="mb-4">
+							<strong class="block text-lg">Lorem ipsum dolor sit amet?</strong>
+							<p>consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+						</li>
+					</ul>
+				</div>
+			</section>
 
-							<a class="navbar-item">
-								Documentation
-							</a>
+			<section class="disclaimer pb-4">
+				<div class="max-w-screen-xl container mx-auto p-4 italic">
+					<p>Before attending the conference, please review the Techlahoma <a class="text-red-500 underline" href="https://www.techlahoma.org/code-of-conduct">Code of Conduct</a>. The Code of Conduct applies to all attendees, speakers, volunteers, and vendors at official and unofficial events by Techlahoma and any location where attendees may be congregating. <a class="text-red-500 underline" href="mailto:hello@uxok.org">Contact us</a> if you have questions.</p>
+				</div>
 
-							<div class="navbar-item has-dropdown is-hoverable">
-								<a class="navbar-link">
-									More
-								</a>
-
-								<div class="navbar-dropdown">
-									<a class="navbar-item">
-										About
-									</a>
-									<a class="navbar-item">
-										Jobs
-									</a>
-									<a class="navbar-item">
-										Contact
-									</a>
-									<hr class="navbar-divider">
-									<a class="navbar-item">
-										Report an issue
-									</a>
-								</div>
-							</div>
-						</div> -->
-						<div class="navbar-end">
-							<div class="navbar-item">
-								<div class="buttons">
-									<a href="https://www.papercall.io/uxok-2021" class="button is-primary">
-										<strong>Submit Talk</strong>
-									</a>
-								</div>
-							</div>
+			</section>
+		</main>
+		<footer>
+			<div class="max-w-screen-xl container mx-auto p-4">
+				<div class="sm:flex justify-between">
+					<div class="mb-4 sm:mb-0">
+						<a class="logo mb-4 block mx-auto sm:mx-0" href="#">
+							<img alt="UXOK" src="assets/images/2021/uxok-white.svg" />
+						</a>
+						<div class="flex">
+							<ul class="list-none flex">
+								<li class="mr-4">
+									<a href="#"> <i class="fa fa-envelope"></i> </a>
+								</li>
+								<li class="mr-4">
+									<a href="#"> <i class="fab fa-twitter"></i> </a>
+								</li>
+								<li class="mr-4">
+									<a href="#"> <i class="fab fa-instagram"></i> </a>
+								</li>
+								<li class="">
+									<a href="#"> <i class="fab fa-github"></i> </a>
+								</li>
+							</ul>
 						</div>
-				</nav>
-			</div>
-
-			<!-- <div class="container">
-				<div class="row is-mobile navigation-section level py-4">
-					<div class="column is-4-mobile logo pl-6">
-						<img class="" src="/images/2021/uxok-red.svg" alt="User Experience Oklahoma Logo - Header Version">
 					</div>
-
-					<div class="column is-4 is-hidden-mobile"></div>
-
-					<div class="column has-content-vertically-centered pr-6">
-						<nav class="level">
-							<p class="level-item">
-							<div class="control">
-								<div class="buttons are-normal">
-									<a class="button is-outlined" href="#call-to-action">Speakers</a>
-									<a class="button is-primary" href="https://www.papercall.io/uxok-2021">Submit CFP</a>
-								</div>
-							</div>
-							</p>
+					<div class="">
+						<nav>
+							<ul class="list-none flex">
+								<li class="mr-4">
+									<a href="#">Link</a>
+								</li>
+								<li class="mr-4">
+									<a href="#">Link</a>
+								</li>
+								<li class="mr-4">
+									<a href="#">Link</a>
+								</li>
+								<li class="">
+									<a href="#">Link</a>
+								</li>
+							</ul>
 						</nav>
 					</div>
 				</div>
-			</div> -->
-		</header>
 
-		<main>
-			<section class="hero-section">
-				<div class="container px-4">
-					<div class="row">
-						<div class="column is-size-1 has-text-weight-bold lh1">Oklahoma’s First UX Conference</div>
-					</div>
-					<div class="row">
-						<div class="column is-size-3">
-							<p class="lh1">Friday, February 5, 2021</p>
-							<p class="lh1">Philbrook Museum / Virtual</p>
-							<p class="lh1">Tulsa, Oklahoma</p>
-						</div>
-					</div>
-				</div>
-			</section>
-
-			<section>
-				<div class="container">
-					<div id="call-to-action" class="row call-to-action-section px-6 py-6 has-content-centered">
-						<div class="column">
-							<div class="row">
-								<div class="column">
-									<p class="is-size-3 has-text-weight-bold">Call for Speakers</p>
-								</div>
-							</div>
-
-							<div class="row">
-								<div class="column">
-									<p class="mw800 container">We are accepting talk submissions! Do you have a great talk about an UX subject? Be one of the first speakers at this brand new conference. Please submit by Wednesday, September 30th.</p>
-								</div>
-							</div>
-
-							<div class="row">
-								<div class="column">
-									<a class="button primary" href="https://www.papercall.io/uxok-2021">Submit Talk on PaperCall</a>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
-
-			<section style="background-color: aquamarine;">
-				<div class="container p-6">
-					<div class="row sign-up-section px-6 py-6">
-						<div class="column has-content-centered mw800 container">
-							<div class="row">
-								<div class="column is-size-3 has-text-weight-bold lh1">
-									<p>Want to be the first to know when tickets go on sale?</p>
-								</div>
-							</div>
-
-							<div class="row">
-								<div class="column">
-									<p class="">We can let you know when tickets are for sale, along with speaker announcements and other updates about the upcoming 2021 UXOK conference</p>
-								</div>
-							</div>
-
-							<div class="row">
-								<div id="notification-form" class="column">
-									<div class="container mw800">
-										<div class="columns is-desktop">
-											<div class="column">
-												<input class="input" type="text" placeholder="First Name" v-model="name">
-											</div>
-											<div class="column">
-												<input class="input" type="text" placeholder="Email" v-model="email">
-											</div>
-											<div class="column">
-												<button class="button is-fullwidth" v-on:click="submitNotificationForm">Sign Up</button>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-
-							<div class="row">
-								<div class="column">
-									<p class="is-italic is-size-6">* We will not use this email address for anything other than UXOK updates. We will not, in any circumstances, share or sell your information with other individuals or organizations
-										without
-										your permission.</p>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
-
-			<section class="code-of-conduct-section">
-				<div class="container py-6 mw800">
-					<div class="row ">
-						<div class="column">
-							<p>Before attending the conference, please review the Techlahoma <a href="https://www.techlahoma.org/code-of-conduct">Code of Conduct</a>. The Code of Conduct applies to all attendees, speakers, volunteers, and vendors at
-								official and unofficial events by Techlahoma and any location where attendees may be congregating. <a href="mailto:hello@uxok.org">Contact us</a> if you have questions.</p>
-						</div>
-					</div>
-				</div>
-			</section>
-		</main>
-
-
-
-		<footer class="footer-section pb-3">
-			<div class="container pt-5">
-				<nav class="navbar" role="navigation" aria-label="main navigation">
-					<div class="navbar-brand">
-						<a class="navbar-item" href="https://bulma.io">
-							<img class="logo" src="/images/2021/uxok-white.svg">
-						</a>
-						<a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="footerNav">
-							<span aria-hidden="true"></span>
-							<span aria-hidden="true"></span>
-							<span aria-hidden="true"></span>
-						</a>
-					</div>
-					<div id="footerNav" class="navbar-menu">
-						<div class="navbar-end">
-							<div class="navbar-item">
-								<div class="buttons">
-									<!-- <a href="https://www.papercall.io/uxok-2021" class="button is-primary">
-										<strong>Submit Talk</strong>
-									</a> -->
-									<a class="button is-primary is-outlined" href="mailto:hello@uxok.org">Sponsors</a>
-									<a class="button is-primary is-outlined	" href="https://www.techlahoma.org/code-of-conduct">Code of Conduct</a>
-
-								</div>
-							</div>
-						</div>
-					</div>
-				</nav>
-				<!-- <div class="columns">
-					<div class="column is-one-quarter">
-						<img class="footer-logo mb-3" src="/images/2021/uxok-white.svg" alt="User Experience Oklahoma Logo - Footer Version">
-						<div class="columns is-mobile is-centered is-narrow">
-							<div class="column">
-								<a href="mailto:hello@uxok.org">
-									<i class="far fa-envelope"></i>
-								</a>
-							</div>
-
-							<div class="column">
-								<a href="https://www.twitter.com/uxokconf/">
-									<i class="fab fa-twitter"></i>
-								</a>
-							</div>
-
-							<div class="column">
-								<a href="https://www.instagram.com/uxokconf/">
-									<i class="fab fa-instagram"></i>
-								</a>
-							</div>
-
-							<div class="column">
-								<a href="https://github.com/uxok">
-									<i class="fab fa-github"></i>
-								</a>
-							</div>
-						</div>
-					</div>
-					<div class="column is-one-half is-offset-quarter">
-						<div class="buttons">
-							<a class="button is-outlined" href="mailto:hello@uxok.org">Sponsors</a>
-							<a class="button is-outlined" href="https://www.techlahoma.org/code-of-conduct">Code of Conduct</a>
-						</div>
-					</div>
-				</div>
-				<p>&copy; 2020 Techlahoma</p> -->
-				<div class="pl-2">
-					<a class="icon has-text-white" href="mailto:hello@uxok.org">
-						<i class="far fa-envelope"></i>
-					</a>
-
-					<a class="icon has-text-white" href="https://www.twitter.com/uxokconf/">
-						<i class="fab fa-twitter"></i>
-					</a>
-
-					<a class="icon has-text-white" href="https://www.instagram.com/uxokconf/">
-						<i class="fab fa-instagram"></i>
-					</a>
-
-					<a class="icon has-text-white" href="https://github.com/uxok">
-						<i class="fab fa-github"></i>
-					</a>
-
-				</div>
-				<p class="mt-2 pl-2">&copy; 2020 Techlahoma</p>
 			</div>
 		</footer>
+
+
+		<script src="assets/js/ga.js" charset="utf-8"></script>
 	</body>
 
 </html>
