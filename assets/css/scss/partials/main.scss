@@ -50,3 +50,9 @@ body {
 	background-size: cover;
 	color: $white;
 }
+
+.section {
+	&:nth-child(odd) {
+		background: rgb(243, 244, 246);
+	}
+}

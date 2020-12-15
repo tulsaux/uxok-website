@@ -8,7 +8,9 @@
 
 		<script src="https://kit.fontawesome.com/fc3cf0738c.js" crossorigin="anonymous"></script>
 		<link rel="preconnect" href="https://fonts.gstatic.com">
-		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet"> 		<link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+		<link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+		<link rel="stylesheet" href="https://css.tito.io/v1.1" />
 		<link rel="stylesheet" href="assets/css/style.css">
 	</head>
 
@@ -26,7 +28,7 @@
 							<li class="sm:mr-4"><a href="#speakers" class="hover:underline" href="#">Speakers</a></li>
 							<li class="sm:mr-4"><a href="#sponsors" class="hover:underline" href="#">Sponsors</a></li>
 							<li class="sm:mr-4"><a href="#faqs" class="hover:underline" href="#">FAQs</a></li>
-							<li class=""><a class="py-2 px-4 text-white rounded bg-red-500 hover:bg-red-600" href="#">Get Tickets</a></li>
+							<li class=""><a class="py-2 px-4 text-white rounded bg-red-500 hover:bg-red-600" href="#tickets">Get Tickets</a></li>
 						</ul>
 					</nav>
 				</div>
@@ -40,13 +42,20 @@
 					<a class="py-2 px-4 text-white rounded bg-red-500 hover:bg-red-600" href="#">Get Early Bird Ticket</a>
 				</div>
 			</section>
-			<section id="about" class="mb-4">
+
+			<section id="about" class="section mb-4  py-8">
 				<div class="container mx-auto max-w-screen-xl px-4 py-4 ">
 					<h2 class="text-3xl font-bold max-w-screen-md mb-4">UXOK is a design conference that focuses on user experience and related tech that make the web accessible, delightful and functional.</h2>
 					<p class="max-w-screen-md">UXOK is organized and backed by <a class="text-red-500 underline" href="https://www.techlahoma.org/">Techlahoma</a> – a volunteer-run 501(c)3 non-profit. Techlahoma is dedicated to advancing Oklahomans through accessible tech training and community building.</p>
 				</div>
 			</section>
-			<section id="speakers" class="mb-4 py-8 bg-gray-100">
+			<section id="tickets" class="section mb-4">
+				<div class="container mx-auto max-w-screen-xl px-4 py-4 ">
+					<h2 class="text-3xl font-bold max-w-screen-md mb-4">Tickets</h2>
+					<tito-widget event="techlahoma/uxok"></tito-widget>
+				</div>
+			</section>
+			<section id="speakers" class="section mb-4 py-8 ">
 				<div class="container mx-auto max-w-screen-xl px-4">
 					<div class="sm:flex items-center mb-6 text-center sm:text-left">
 						<h2 class="text-3xl font-bold max-w-screen-md  bg-blue-400 mb-2 sm:mb-0 inline-block py-2 px-4">Speakers </h2>
@@ -81,7 +90,7 @@
 					</ul>
 				</div>
 			</section>
-			<section id="sponsors" class="mb-4">
+			<section id="sponsors" class="section mb-4 py-8">
 				<div class="container mx-auto max-w-screen-xl px-4 border-b-2 py-4 pb-8 mb-4">
 					<h2 class="text-3xl font-bold max-w-screen-md mb-4 bg-blue-400 inline-block py-2 px-4">Sponsors</h2>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
@@ -96,7 +105,7 @@
 					</div>
 				</div>
 			</section>
-			<section id="faqs">
+			<section id="faqs" class="section">
 				<div class="container mx-auto max-w-screen-xl px-4 border-b-2 py-4 mb-4">
 					<h2>FAQs</h2>
 					<ul class="list-none">
@@ -174,7 +183,7 @@
 			</div>
 		</footer>
 
-
+		<script src="https://js.tito.io/v1" async></script>
 		<script src="assets/js/ga.js" charset="utf-8"></script>
 	</body>
 

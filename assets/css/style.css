@@ -822,6 +822,10 @@ body {
   color: #fff;
 }
 
+.section:nth-child(odd) {
+  background: #f3f4f6;
+}
+
 header .logo {
   outline: 1px solid red;
   display: block;
