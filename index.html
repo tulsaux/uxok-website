@@ -41,20 +41,20 @@
 				<div class="max-w-screen-xl container mx-auto p-4 ">
 					<h1 class="text-4xl mb-2 font-bold">Oklahoma’s <span class="font-black">First</span> UX Conference</h1>
 					<h2 class="mb-6 text-2xl font-bold">Friday, February 5, 2021</h2>
-					<a class="py-2 px-4 text-white rounded bg-red-500 hover:bg-red-600" href="#">Get Early Bird Ticket</a>
+					<a class="py-2 px-4 text-white rounded bg-red-500 hover:bg-red-600" href="#tickets">Get Early Bird Ticket</a>
 				</div>
 			</section>
 
 			<section id="about" class="section mb-4  py-8">
 				<div class="container mx-auto max-w-screen-xl px-4 py-4 ">
-					<h2 class="text-3xl font-bold max-w-screen-md mb-4">UXOK is a design conference that focuses on user experience and related tech that make the web accessible, delightful and functional.</h2>
+					<h2 class="text-3xl font-bold max-w-screen-md mb-4"><span class="text-red">UXOK</span> is a design conference that focuses on user experience and related tech that make the web accessible, delightful and functional.</h2>
 					<p class="max-w-screen-md">UXOK is organized and backed by <a class="text-red-500 underline" href="https://www.techlahoma.org/">Techlahoma</a> – a volunteer-run 501(c)3 non-profit. Techlahoma is dedicated to advancing Oklahomans through accessible tech training and community building.</p>
 				</div>
 			</section>
 			<section id="tickets" class="section mb-4">
 				<div class="container mx-auto max-w-screen-xl px-4 py-4 ">
-					<h2 class="text-3xl font-bold max-w-screen-md mb-4">Tickets</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+					<h2 class="uxok-box-shadow yellow text-3xl font-bold max-w-screen-md  bg-blue-400 mb-4 inline-block py-2 px-4">Tickets</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 						<tito-widget event="techlahoma/uxok"></tito-widget>
 					</div>
 				</div>
@@ -62,7 +62,7 @@
 			<section id="speakers" class="section mb-4 py-8 ">
 				<div class="container mx-auto max-w-screen-xl px-4">
 					<div class="sm:flex items-center mb-6 text-center sm:text-left">
-						<h2 class="text-3xl font-bold max-w-screen-md  bg-blue-400 mb-2 sm:mb-0 inline-block py-2 px-4">Speakers </h2>
+						<h2 class="uxok-box-shadow text-3xl font-bold max-w-screen-md  bg-blue-400 mb-2 sm:mb-0 inline-block py-2 px-4">Speakers </h2>
 						<span class="ml-4 text-3xl font-bold block">Announced Soon!</span>
 					</div>
 					<ul class="flex speaker-list mb-4 flex-wrap md:flex-nowrap">
@@ -96,20 +96,35 @@
 			</section>
 			<section id="sponsors" class="section mb-4 py-8">
 				<div class="container mx-auto max-w-screen-xl px-4 py-4">
-					<h2 class="text-3xl font-bold max-w-screen-md mb-4 bg-blue-400 inline-block py-2 px-4">Sponsors</h2>
+					<h2 class="uxok-box-shadow green text-3xl font-bold max-w-screen-md mb-4 bg-blue-400 inline-block py-2 px-4">Sponsors</h2>
 					<p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-					<div class="bg-green-200">
-						<form class="" action="index.html" method="post">
-							<label for="">Email</label>
-							<input type="text" name="" value="">
-							<input type="subit" name="" value="">
+					<h3 class="text-xl uppercase font-bold max-w-screen-md mb-2 mt-4 inline-block">Become a Sponsor</h3>
+					<div class="bg-green-100 p-4 uxok-box-shadow lime">
+						<form netlify class="" action="index.html" method="post">
+							<div class="mb-4">
+								<label class="block text-lg font-bold" for="">Email</label>
+								<input class="p-2 block w-full" type="email" name="" value="" placeholder="name@example.com">
+							</div>
+							<div class="mb-4">
+								<label class="block text-lg font-bold" for="">Name</label>
+								<input class="p-2 block w-full" type="text" name="" value="" placeholder="Example">
+							</div>
+							<div class="mb-4">
+								<label class="block text-lg font-bold" for="">Company</label>
+								<input class="p-2 block w-full" type="text" name="" value="" placeholder="Example">
+							</div>
+							<div class="">
+								<input type="submit" class="py-2 px-4 b-0 text-2xl bg-green-900 text-white font-bold uxok-box-shadow greener cursor-pointer" name="" value="Let's talk!">
+							</div>
+
+
 						</form>
 					</div>
 				</div>
 			</section>
 			<section id="faqs" class="section">
 				<div class="container mx-auto max-w-screen-xl px-4 border-b-2 py-4 mb-4">
-					<h2 class="text-3xl font-bold max-w-screen-md  bg-blue-400 mb-4 inline-block py-2 px-4">FAQs </h2>
+					<h2 class="uxok-box-shadow red text-3xl font-bold max-w-screen-md  bg-blue-400 mb-4 inline-block py-2 px-4">FAQs </h2>
 					<ul class="list-none">
 						<li class="mb-4">
 							<strong class="block text-lg">How much does it cost to attend?</strong>
@@ -133,7 +148,7 @@
 
 			<section class="disclaimer pb-4">
 				<div class="max-w-screen-xl container mx-auto p-4 italic">
-					<p>Before attending the conference, please review the Techlahoma <a class="text-red-500 underline" href="https://www.techlahoma.org/code-of-conduct">Code of Conduct</a>. The Code of Conduct applies to all attendees, speakers, volunteers, and vendors at official and unofficial events by Techlahoma and any location where attendees may be congregating. <a class="text-red-500 underline" href="mailto:hello@uxok.org">Contact us</a> if you have questions.</p>
+					<p>Before attending the conference, please review the Techlahoma <a class="text-red-500 underline" href="https://www.techlahoma.org/code-of-conduct">Code of Conduct</a>. The Code of Conduct applies to all attendees, speakers, volunteers, and vendors at official and unofficial events by Techlahoma and any location where attendees may be congregating. <a class="text-red-500 underline" href="mailto:uxok@techlahoma.org">Contact us</a> if you have questions.</p>
 				</div>
 
 			</section>
@@ -146,7 +161,7 @@
 							<img alt="UXOK" src="assets/images/2021/uxok-white.svg" />
 						</a>
 						<div class="flex">
-							<ul class="list-none flex">
+							<ul class="list-none flex justify-center sm:justify-start w-full">
 								<li class="mr-4">
 									<a class="hover:text-red-600 transition-colors" href="#"> <i class="fa fa-envelope"></i> </a>
 								</li>
@@ -164,10 +179,17 @@
 					</div>
 					<div class="mb-4 sm:mb-0">
 						<nav>
-							<ul class="list-none flex">
+							<ul class="list-none flex justify-center w-full">
 								<li class="mr-4">
 									<a class="hover:text-red-600" href="https://www.techlahoma.org/code-of-conduct">Code of Conduct</a>
 								</li>
+								<li class="mr-4">
+									<a class="hover:text-red-600" href="mailto:uxok@techlahoma.org">Contact</a>
+								</li>
+								<li class="mr-4">
+									<a class="hover:text-red-600" href="privacy.html">Privacy Policy</a>
+								</li>
+
 								<!-- <li class="mr-4">
 									<a class="hover:text-red-600" href="#">Link</a>
 								</li>
@@ -181,7 +203,7 @@
 						</nav>
 					</div>
 				</div>
-				<div class="text-white text-opacity-50">
+				<div class="text-white text-opacity-50 text-center sm:text-left">
 					&copy; 2021 Techlahoma
 				</div>
 

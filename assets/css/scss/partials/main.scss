@@ -51,7 +51,33 @@ body {
 	color: $white;
 }
 
+.text-red {
+	color: $clr-4;
+}
+
 .section {
+	.uxok-box-shadow {
+		box-shadow: 5px 5px 0 $clr-2;
+		&.red {
+			box-shadow: 5px 5px 0 darken($clr-4, 20%);
+			background: $clr-4;
+		}
+		&.green {
+			box-shadow: 5px 5px 0 darken($clr-3, 10%);
+			background: $clr-3;
+		}
+		&.greener {
+			box-shadow: 5px 5px 0 darken($clr-3, 50%);
+		}
+		&.lime {
+			box-shadow: 5px 5px 0 $clr-3;
+			background: lighten($clr-3, 30%);
+		}
+		&.yellow {
+			box-shadow: 5px 5px 0 darken($clr-1, 10%);
+			background: $clr-1
+		}
+	}
 	&:nth-child(odd) {
 		background: rgb(243, 244, 246);
 	}
@@ -59,4 +85,9 @@ body {
 
 .tito-wrapper {
 	background: $white;
+	margin-left: 0;
 }
+
+// .button-submit {
+// 	cursor: pointer;
+// }

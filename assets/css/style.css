@@ -822,12 +822,39 @@ body {
   color: #fff;
 }
 
+.text-red {
+  color: #F73363;
+}
+
+.section .uxok-box-shadow {
+  box-shadow: 5px 5px 0 #3D7BF5;
+}
+.section .uxok-box-shadow.red {
+  box-shadow: 5px 5px 0 #bd0734;
+  background: #F73363;
+}
+.section .uxok-box-shadow.green {
+  box-shadow: 5px 5px 0 #00a958;
+  background: #00DC73;
+}
+.section .uxok-box-shadow.greener {
+  box-shadow: 5px 5px 0 black;
+}
+.section .uxok-box-shadow.lime {
+  box-shadow: 5px 5px 0 #00DC73;
+  background: #76ffbe;
+}
+.section .uxok-box-shadow.yellow {
+  box-shadow: 5px 5px 0 #c39a00;
+  background: #F6C200;
+}
 .section:nth-child(odd) {
   background: #f3f4f6;
 }
 
 .tito-wrapper {
   background: #fff;
+  margin-left: 0;
 }
 
 header .logo {
