@@ -845,8 +845,8 @@ body {
   background: #76ffbe;
 }
 .section .uxok-box-shadow.yellow {
-  box-shadow: 5px 5px 0 #c39a00;
-  background: #F6C200;
+  box-shadow: 5px 5px 0 #f5dc00;
+  background: #FFEC42;
 }
 .section:nth-child(odd) {
   background: #f3f4f6;

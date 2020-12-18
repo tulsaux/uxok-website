@@ -74,7 +74,7 @@ body {
 			background: lighten($clr-3, 30%);
 		}
 		&.yellow {
-			box-shadow: 5px 5px 0 darken($clr-1, 10%);
+			box-shadow: 5px 5px 0 darken($clr-1, 15%);
 			background: $clr-1
 		}
 	}
