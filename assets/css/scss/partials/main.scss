@@ -91,3 +91,14 @@ body {
 // .button-submit {
 // 	cursor: pointer;
 // }
+
+// .spacer-line {
+// 	border-bottom: 1px solid $blackLighter;
+// 	width: 150px;
+// 	display: inline-block;
+// 	margin: .75em 0 0.5em;
+// }
+
+.black-shadow {
+	box-shadow: 5px 5px 0 $blackLight;
+}
