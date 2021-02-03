@@ -861,6 +861,13 @@ body {
   box-shadow: 5px 5px 0 #222;
 }
 
+.center-h-v {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 header .logo {
   display: block;
 }

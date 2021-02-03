@@ -102,3 +102,10 @@ body {
 .black-shadow {
 	box-shadow: 5px 5px 0 $blackLight;
 }
+
+.center-h-v {
+	position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
