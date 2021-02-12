@@ -848,7 +848,7 @@ body {
   box-shadow: 5px 5px 0 #f5dc00;
   background: #FFEC42;
 }
-.section:nth-child(odd) {
+.section:nth-child(even) {
   background: #f3f4f6;
 }
 

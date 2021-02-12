@@ -55,10 +55,11 @@
 						</label>
 						<input type="checkbox" id="menu-toggle" value="">
 						<ul class="nav-list list-none hidden w-full bg-white sm:flex">
-							<li class="sm:mr-4"><a href="#speakers" class="hover:underline" href="#">Speakers/Schedule</a></li>
-							<li class="sm:mr-4"><a href="#sponsors" class="hover:underline" href="#">Sponsors</a></li>
-							<li class="sm:mr-4"><a href="#faqs" class="hover:underline" href="#">FAQs</a></li>
-							<li class="mt-4 sm:mt-0"><a class="py-2 px-4 text-white rounded bg-red-500 hover:bg-red-600" href="https://uxok.org/youtube" target="_blank">Watch Now</a></li>
+							<li class="sm:mr-4"><a href="#speakers" class="hover:underline" >Speakers/Schedule</a></li>
+							<li class="sm:mr-4"><a href="#sponsors" class="hover:underline" >Sponsors</a></li>
+							<li class="sm:mr-4"><a href="#faqs" class="hover:underline" >FAQs</a></li>
+							<!-- TODO: Add URL to previous recorded talks -->
+							<li class="mt-4 sm:mt-0"><a target="_blank" class="py-2 px-4 text-white rounded bg-red-500 hover:bg-red-600" href="https://uxok.org/youtube">Watch Recap</a></li>
 						</ul>
 					</nav>
 				</div>
@@ -68,9 +69,8 @@
 			<section class="hero py-16">
 				<div class="max-w-screen-xl container mx-auto p-4 ">
 					<h1 class="text-4xl mb-2 font-bold">Oklahoma’s <span class="font-black">First</span> UX Conference</h1>
-					<h2 class="mb-6 text-2xl font-bold">Friday, February 5<sup>th</sup>, 2021<br/> <small> <em>Streaming Now!</em> </small> </h2>
-					<a class="py-2 px-4 text-white rounded bg-red-500 hover:bg-red-600 font-bold inline-block mr-4" href="https://uxok.org/youtube" target="_blank"> <i class="fab mr-2 fa-youtube"></i> YouTube Live</a>
-					<a class="py-2 px-4 text-white rounded bg-red-500 hover:bg-red-600 font-bold inline-block" href="https://uxok.org/twitch" target="_blank"> <i class="fab mr-2 fa-twitch"></i> Twitch Stream</a>
+					<h2 class="mb-6 text-2xl">Thanks to all the <a class="hover:underline" href="#sponsors">sponsors</a> and volunteers who made this year possible!  </h2>
+					<a target="_blank" class="py-2 px-4 text-white rounded bg-red-500 hover:bg-red-600" href="https://uxok.org/youtube">Watch 2021 Conference</a>
 				</div>
 			</section>
 
@@ -78,21 +78,6 @@
 				<div class="container mx-auto max-w-screen-xl px-4 py-4 ">
 					<h2 class="text-3xl font-bold max-w-screen-md mb-4"><span class="text-red">UXOK</span> is a design conference that focuses on user experience and related tech that make the web accessible, delightful, and functional.</h2>
 					<p class="max-w-screen-md">UXOK is organized and backed by <a class="text-red-500 underline" href="https://www.techlahoma.org/">Techlahoma</a> – a volunteer-run 501(c)3 non-profit. Techlahoma is dedicated to advancing Oklahomans through accessible tech training and community building.</p>
-				</div>
-			</section>
-			<section id="tickets" class="section mb-4">
-				<div class="container mx-auto max-w-screen-xl px-4 py-4 ">
-					<h2 class="uxok-box-shadow yellow text-3xl font-bold max-w-screen-md  bg-blue-400 mb-4 inline-block py-2 px-4">Tickets</h2>
-					<p>Our ticketing system is hosted by <a class="underline text-red-600" href="https://ti.to/home">Ti.to</a>. Please use the form below to get tickets for the conference.</p>
-					<!-- <br/> -->
-					<!-- <strong>Ticket Options:</strong>
-					<ul class="list-disc ml-8 mb-4">
-						<li><strong>Free Ticket ($0):</strong> Our free tree, granting you access to the virtual event.</li>
-						<li><strong>Supporter Ticket ($XX):</strong> This ticket includes a shirt, stickers and other goodies mailed to your door. Show your support for UXOK! </li>
-						<li><strong>Name-your-own Price Ticket:</strong> Pay us whatever you want. If the amount is over the supporter ticket price, we will also mail you a swag pack.</li>
-					</ul> -->
-						<tito-widget event="techlahoma/uxok"></tito-widget>
-					</div>
 				</div>
 			</section>
 			<section id="speakers" class="section mb-4 py-8 ">
