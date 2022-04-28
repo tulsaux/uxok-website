@@ -22,8 +22,6 @@
 		<script src="https://kit.fontawesome.com/fc3cf0738c.js" crossorigin="anonymous"></script>
 		<link rel="preconnect" href="https://fonts.gstatic.com">
 		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
-		<link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
-		<link rel="stylesheet" href="https://css.tito.io/v1.1" />
 		<link rel="stylesheet" href="assets/css/style.css">
 
 		<!-- Google Tag Manager -->
@@ -43,23 +41,24 @@
 		height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 		<!-- End Google Tag Manager (noscript) -->
 
-		<header>
-			<div class="max-w-screen-xl container mx-auto sm:p-4">
-				<div class="flex items-center justify-between relative p-4 sm:p-0">
-					<a class="logo" href="#">
-						<img alt="UXOK" src="assets/images/2021/uxok-red.svg" />
+		<header class="sticky top-0 bg-white  z-20 md:shadow-md">
+			<div class="max-w-screen-xl container mx-auto sm:p-4 relativ ">
+				<div class="flex items-center justify-between relative p-4 sm:p-0 shadow-md md:shadow-none">
+					<a class="logo block" href="#">
+						<img class="w-52 block" alt="UXOK" src="assets/images/2021/uxok-red.svg" />
 					</a>
 					<nav>
 						<label class="sm:hidden " for="menu-toggle">
 							<i class="fa fa-bars fa-lg"></i>
 						</label>
 						<input type="checkbox" id="menu-toggle" value="">
-						<ul class="nav-list list-none hidden w-full bg-white sm:flex">
-							<li class="sm:mr-4"><a href="#speakers" class="hover:underline" >Speakers/Schedule</a></li>
-							<li class="sm:mr-4"><a href="#sponsors" class="hover:underline" >Sponsors</a></li>
-							<li class="sm:mr-4"><a href="#faqs" class="hover:underline" >FAQs</a></li>
+						<ul class="nav-list list-none hidden w-full bg-white flex flex-col sm:flex-row gap-y-6 sm:items-center sm:gap-x-6 shadow-sm bg-slate-100">
+							<!-- <li class=""><a href="#speakers" class="hover:underline hover:color-red-500 transition" >Speakers/Schedule</a></li> -->
+							<li class=""><a href="#sponsors" class="hover:underline hover:color-red-500 transition" >Sponsors</a></li>
+							<li class=""><a href="#faqs" class="hover:underline hover:color-red-500 transition" >FAQs</a></li>
 							<!-- TODO: Add URL to previous recorded talks -->
-							<li class="mt-4 sm:mt-0"><a target="_blank" class="py-2 px-4 text-white rounded bg-red-500 hover:bg-red-600" href="https://uxok.org/youtube">Watch Recap</a></li>
+							<li class=""><a class="inline-block py-2 px-4 text-red-500 rounded border border-px border-red-500 hover:bg-red-500 hover:text-white transition" href="/submit-talk">Submit Talk</a></li>
+							<li class=""><a class="inline-block py-2 px-4 text-white rounded border border-px border-red-500 bg-red-500 hover:bg-red-600 transition" href="/tickets">Get Tickets</a></li>
 						</ul>
 					</nav>
 				</div>
@@ -69,18 +68,27 @@
 			<section class="hero py-16">
 				<div class="max-w-screen-xl container mx-auto p-4 ">
 					<h1 class="text-4xl mb-2 font-bold">Oklahoma’s <span class="font-black">First</span> UX Conference</h1>
-					<h2 class="mb-6 text-2xl">Thanks to all the <a class="hover:underline" href="#sponsors">sponsors</a> and volunteers who made this year possible!  </h2>
-					<a target="_blank" class="py-2 px-4 text-white rounded bg-red-500 hover:bg-red-600" href="https://uxok.org/youtube">Watch 2021 Conference</a>
+					<h2 class="mb-6 text-2xl font-bold">Friday, August 12, 2022 <br/>Central Library | Tulsa, Oklahoma</h2>
+					<div class="flex flex-col gap-4 md:flex-row"> 
+						<a class="py-2 px-4 block text-white rounded text-white rounded border border-px border-white hover:bg-white hover:text-red-500 md:inline-block text-center" href="/submit-talk">Submit Talk</a>
+						<a class="py-2 px-4 block text-white rounded bg-red-500 border border-px border-red-500 hover:bg-red-600 md:inline-block text-center" href="/tickets">Get Early Bird Tickets</a>
+					</div>
 				</div>
 			</section>
 
 			<section id="about" class="section mb-4  py-8">
 				<div class="container mx-auto max-w-screen-xl px-4 py-4 ">
 					<h2 class="text-3xl font-bold max-w-screen-md mb-4"><span class="text-red">UXOK</span> is a design conference that focuses on user experience and related tech that make the web accessible, delightful, and functional.</h2>
-					<p class="max-w-screen-md">UXOK is organized and backed by <a class="text-red-500 underline" href="https://www.techlahoma.org/">Techlahoma</a> – a volunteer-run 501(c)3 non-profit. Techlahoma is dedicated to advancing Oklahomans through accessible tech training and community building.</p>
+					<p class="max-w-screen-md">UXOK is organized and backed by the <a class="text-red-500 underline" href="https://www.techlahoma.org/"> Techlahoma Foundation</a> – a volunteer-run 501(c)3 non-profit. Techlahoma is dedicated to advancing Oklahomans through accessible tech training and community building.</p>
 				</div>
 			</section>
-			<section id="speakers" class="section mb-4 py-8 ">
+			<section class="section mb-4 py-8">
+				<div class="container mx-auto max-w-screen-xl px-4">
+					Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis, id hic! Quod, labore eaque dolor inventore cumque sint corrupti incidunt vel laudantium laboriosam ipsam quibusdam alias quis enim illum excepturi!
+
+				</div>
+			</section>
+			<!-- <section id="speakers" class="section mb-4 py-8 hidden">
 				<div class="container mx-auto max-w-screen-xl px-4">
 					<div class="sm:flex items-center mb-6 text-center sm:text-left">
 						<h2 class="uxok-box-shadow text-3xl font-bold max-w-screen-md  bg-blue-400 mb-2 sm:mb-0 inline-block py-2 px-4">Speakers and Schedule </h2>
@@ -103,7 +111,6 @@
 							</div>
 						</li>
 
-						<!-- Tracey Kelly 9:15 -->
 						<li class="sm:flex justify-center items-center mb-24 sm:mb-16">
 							<div class=" sm:w-1/2 sm:text-right mb-4 sm:mb-0 sm:pl-6 xl:w-2/3">
 								<h4><i class="fas fa-keynote"></i> Keynote</h4>
@@ -123,7 +130,6 @@
 							</div>
 						</li>
 
-						<!-- Felix Lee 10:15 -->
 						<li class="sm:flex justify-center items-center flex-row-reverse mb-24 sm:mb-12 ">
 							<div class="sm:w-1/2 xl:w-2/3 mb-4 sm:mb-0 sm:pl-6">
 								<h2 class="font-bold text-xl sm:text-3xl"><em>Design that Matters:</em> Better, Faster,&nbsp;Cheaper</h2>
@@ -142,7 +148,6 @@
 							</div>
 						</li>
 
-						<!-- Hossein Raspberry 11:15 -->
 						<li class="sm:flex justify-center items-center mb-24 sm:mb-16">
 							<div class=" sm:w-1/2 sm:text-right mb-4 sm:mb-0 sm:pl-6 xl:w-2/3">
 								<h2 class="font-bold text-xl sm:text-3xl">The urgency of designing for the new reality and getting rid of pre-COVID assumptions</h2>
@@ -172,7 +177,6 @@
 							</div>
 						</li>
 
-						<!-- Kevin Liang 13:30 -->
 						<li class="sm:flex justify-center items-center flex-row-reverse mb-24 sm:mb-12 ">
 							<div class="sm:w-1/2 xl:w-2/3 mb-4 sm:mb-0 sm:pl-6">
 								<h4><i class="fas fa-keynote"></i> Keynote</h4>
@@ -192,7 +196,6 @@
 							</div>
 						</li>
 
-						<!-- Bella Olszewski 14:30 -->
 						<li class="sm:flex justify-center items-center mb-24 sm:mb-16">
 							<div class=" sm:w-1/2 sm:text-right mb-4 sm:mb-0 sm:pl-6 xl:w-2/3">
 								<h2 class="font-bold text-xl sm:text-2xl">The Challenge of Ethical Design</h2>
@@ -213,7 +216,6 @@
 							</div>
 						</li>
 
-						<!-- Kristina Halvorson 15:30  -->
 						<li class="sm:flex justify-center items-center flex-row-reverse mb-24 sm:mb-12 ">
 							<div class="  sm:w-1/2 xl:w-2/3 mb-4 sm:mb-0 sm:pl-6">
 								<h2 class="font-bold text-xl sm:text-2xl">Live Q&A with Kristina Halvorson</h2>
@@ -238,43 +240,39 @@
 						<li class="sm:mt-0 sm:mb-8 mb-16 text-center text-2xl font-bold">
 
 							Closing Remarks and Remote&nbsp;Networking <br/>
-							<!-- <span class="text-xl"> Sponsored by <a class="underline text-blue-600" href="#title-sponsor">Jinn Studios</a> </span> -->
 						</li>
 
 					</ul>
 				</div>
-			</section>
+			</section> -->
 			<section id="sponsors" class="section mb-4 py-8">
 				<div class="container mx-auto max-w-screen-xl px-4 py-4">
 					<h2 class="uxok-box-shadow green text-3xl font-bold max-w-screen-md mb-4 bg-blue-400 inline-block py-2 px-4">Sponsors</h2>
-					<h3 id="title-sponsor" class="text-center sm:text-left italic font-bold mt-8 text-2xl border-bottom border-0 border-gray-400 border-b-2 border-dashed border-dashed mb-4">Title Level</h3>
+					<h3 id="title-sponsor" class="text-center sm:text-left italic font-bold mt-8 text-2xl border-bottom border-0 border-gray-400 border-b-2 border-dashed border-dashed mb-4">Lunch</h3>
 					<ul class="list-none items-center mb-8">
-						<li class="inline-block hover:border">
-							<a target="_blank" class="block text-center" href="https://jinnstudios.com/">
-								<img alt="Jinn Studios logo" class="px-4 block w-full sm:w-auto  mx-auto max-w-lg mb-6" src="assets/images/2021/sponsors/jinn-studios.png"/>
-								<em class="text-lg font-normal">Exclusive Lunch Sponsor</em>
+						<li class="inline-block">
+							<a target="_blank" class="block text-center w-72 hover:scale-105 transition-transform" href="https://jinnstudios.com/">
+								<img alt="Heartland" class="w-full block  mx-auto rounded-md overflow-hidden" src="assets/images/2022/sponsors/jinnstudios.png"/>
 							</a>
 						</li>
 					</ul>
 
-					<h3 class="text-center sm:text-left italic font-bold text-2xl border-bottom border-0 border-gray-400 border-b-2 border-dashed border-dashed mb-4">Local Level</h3>
-					<ul class="list-none sm:flex items-center ">
-						<li class="mb-8 w-full sm:w-1/2 md:w-1/3 xl:w-1/4 mr-4 hover:border">
-							<a target="_blank" class="block text-center" href="https://bitnesslabs.com/">
-								<img alt="Bitness Labs logo" class=" px-4 w-full block mx-auto max-w-sm mb-6" src="assets/images/2021/sponsors/bitness-labs.png"/>
-								<!-- <strong class="text-lg font-normal">Bitness Labs</strong> -->
+					<h3 class="text-center sm:text-left italic font-bold text-2xl border-bottom border-0 border-gray-400 border-b-2 border-dashed border-dashed mb-4">Bronze Level</h3>
+					<ul class="list-none flex gap-y-4 sm:gap-y-0 flex-col sm:flex-row items-start gap-x-4">
+						<li class="">
+							<a target="_blank" class="block text-center w-40 hover:scale-105 transition-transform" href="https://www.gitwit.com/">
+								<img alt="Gitwit" class="w-full block  mx-auto rounded-md overflow-hidden" src="assets/images/2022/sponsors/gitwit.jpg"/>
 							</a>
 						</li>
-						<li class="mb-8 w-full sm:w-1/2 md:w-1/3 xl:w-1/4 hover:border">
-							<a target="_blank" class="block text-center" href="http://ryskconsulting.com/">
-								<img alt="RYSK Consulting logo" class=" px-4 w-full block  mx-auto max-w-xs mb-6" src="assets/images/2021/sponsors/rysk-consulting.png"/>
-								<!-- <strong class="text-lg font-normal">RYSK Consulting</strong> -->
+						<li class="">
+							<a target="_blank" class="block text-center w-40 hover:scale-105 transition-transform" href="https://www.heartland.us/about/in-the-community">
+								<img alt="Heartland" class="w-full block  mx-auto rounded-md overflow-hidden" src="assets/images/2022/sponsors/heartland.png"/>
 							</a>
 						</li>
 					</ul>
 
 
-					<p class="mt-8 mb-4">Interested in becoming a sponsor? See our <a download class="underline text-red-600" href="/assets/docs/2021-sponsorship-prospectus-uxok.pdf">sponsorship prospectus (PDF)</a> or contact us to get started.</p>
+					<p class="mt-8 mb-4">Interested in becoming a sponsor? See our <a download class="underline text-red-600" href="/sponsor">sponsorship prospectus (PDF)</a> or contact us to get started.</p>
 					<h3 class="text-xl uppercase font-bold max-w-screen-md mb-2 mt-4 inline-block">Become a Sponsor</h3>
 					<div class="bg-green-100 p-4 uxok-box-shadow lime max-w-screen-md">
 						<form name="contact" method="POST" data-netlify="true">
@@ -299,7 +297,7 @@
 					</div>
 				</div>
 			</section>
-			<section id="faqs" class="section">
+			<section id="faqs" class="section py-8">
 				<div class="container mx-auto max-w-screen-xl px-4 border-b-2 py-4 mb-4">
 					<h2 class="uxok-box-shadow red text-3xl font-bold max-w-screen-md  bg-blue-400 mb-4 inline-block py-2 px-4">FAQs </h2>
 					<ul class="list-none">
@@ -389,13 +387,14 @@
 					</div>
 				</div>
 				<div class="text-white text-opacity-50 text-center sm:text-left">
-					&copy; 2021 Techlahoma
+					&copy; 2022 Techlahoma Foundation. All rights reserved.
 				</div>
 
 			</div>
 		</footer>
 		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-101276171-3"></script>
-		<script src="https://js.tito.io/v1" async></script>
+		<script src="https://cdn.tailwindcss.com"></script>
+		<!-- <script src="https://js.tito.io/v1" async></script> -->
 	</body>
 
 </html>
