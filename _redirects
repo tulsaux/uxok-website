@@ -1,7 +1,12 @@
 # Redirects from what the browser requests to what we serve
-/youtube	https://www.youtube.com/watch?v=5Sr54yqEGos
-/twitch		https://www.twitch.tv/techlahoma
-/survey		https://forms.gle/fz92c7qn8VMv4Z9n7
-/meet		https://meet.google.com/jgg-xdrn-dqv
-/networking	https://meet.google.com/jgg-xdrn-dqv
-/register	https://techlahoma.z2systems.com/eventReg.jsp?event=2&
+# /youtube	    https://www.youtube.com/watch?v=5Sr54yqEGos
+# /twitch		    https://www.twitch.tv/techlahoma
+# /survey		    https://forms.gle/fz92c7qn8VMv4Z9n7
+# /meet		    https://meet.google.com/jgg-xdrn-dqv
+# /networking	    https://meet.google.com/jgg-xdrn-dqv
+
+/register	    https://techlahoma.app.neoncrm.com/np/clients/techlahoma/eventRegistration.jsp?event=2
+/tickets        https://techlahoma.app.neoncrm.com/np/clients/techlahoma/eventRegistration.jsp?event=2
+/papercall      https://www.papercall.io/uxok
+/submit-talk    https://www.papercall.io/uxok
+/sponsor        /assets/docs/UXOK-SponsorshipProspectus-2022.pdf
