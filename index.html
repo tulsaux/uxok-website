@@ -57,8 +57,8 @@
 							<li class=""><a href="#sponsors" class="hover:underline hover:color-red-500 transition" >Sponsors</a></li>
 							<li class=""><a href="#faqs" class="hover:underline hover:color-red-500 transition" >FAQs</a></li>
 							<!-- TODO: Add URL to previous recorded talks -->
-							<li class=""><a class="inline-block py-2 px-4 text-red-500 rounded border border-px border-red-500 hover:bg-red-500 hover:text-white transition" href="/submit-talk">Submit Talk</a></li>
-							<li class=""><a class="inline-block py-2 px-4 text-white rounded border border-px border-red-500 bg-red-500 hover:bg-red-600 transition" href="/tickets">Get Tickets</a></li>
+							<li class=""><a class="inline-block py-2 px-4 text-red-500 border border-px border-red-500 hover:bg-red-500 hover:text-white transition" href="/submit-talk">Submit Talk</a></li>
+							<li class=""><a class="inline-block py-2 px-4 text-white border border-px border-red-500 bg-red-500 hover:bg-red-600 transition" href="/tickets">Get Tickets</a></li>
 						</ul>
 					</nav>
 				</div>
@@ -70,8 +70,8 @@
 					<h1 class="text-4xl mb-2 font-bold">Oklahoma’s <span class="font-black">First</span> UX Conference</h1>
 					<h2 class="mb-6 text-2xl font-bold">Friday, August 12, 2022 <br/>Central Library | Tulsa, Oklahoma</h2>
 					<div class="flex flex-col gap-4 md:flex-row"> 
-						<a class="py-2 px-4 block text-white rounded text-white rounded border border-px border-white hover:bg-white hover:text-red-500 md:inline-block text-center" href="/submit-talk">Submit Talk</a>
-						<a class="py-2 px-4 block text-white rounded bg-red-500 border border-px border-red-500 hover:bg-red-600 md:inline-block text-center" href="/tickets">Get Early Bird Tickets</a>
+						<a class="py-2 px-4 block text-white text-white border border-px border-white hover:bg-white hover:text-red-500 md:inline-block text-center" href="/submit-talk">Submit Talk</a>
+						<a class="py-2 px-4 block text-white bg-red-500 border border-px border-red-500 hover:bg-red-600 md:inline-block text-center" href="/tickets">Get Early Bird Tickets</a>
 					</div>
 				</div>
 			</section>
@@ -82,7 +82,25 @@
 					<p class="max-w-screen-md">UXOK is organized and backed by the <a class="text-red-500 underline" href="https://www.techlahoma.org/"> Techlahoma Foundation</a> – a volunteer-run 501(c)3 non-profit. Techlahoma is dedicated to advancing Oklahomans through accessible tech training and community building.</p>
 				</div>
 			</section>
-			<section class="section mb-4 py-8">
+			<section id="tickets" class="section mb-4 py-8">
+				<div class="container mx-auto max-w-screen-xl px-4">
+					<div class="sm:flex items-center mb-6 text-center sm:text-left">
+						<h2 class="uxok-box-shadow text-3xl font-bold max-w-screen-md  bg-blue-400 mb-2 sm:mb-0 inline-block py-2 px-4">Tickets </h2>
+					</div>
+
+					<p class="mb-4">Ready to attend? Register for the conference below:</p>
+
+					<ul class="mb-4"><li><strong>Corporate Ticket<sup>*</sup></strong> $150.00</li>
+						<li><strong>General Admission<sup>*</sup></strong> $100.00</li>
+						<li><strong>Scholarship Ticket</strong> $50.00 (Pay for an anonymous student admission) </li>
+						<li><strong>Student Ticket<sup>*</sup></strong> $50.00 <em>(Student ID Required)</em> </li></ul>
+
+					<p class="mb-4"><em><sup>*</sup> Includes T-shirt and Catered Food at the Conference</em></p>
+
+					<p><a class="py-2 px-4 block text-white bg-red-500 border border-px border-red-500 hover:bg-red-600 md:inline-block text-center" href="/tickets">Get Early Bird Tickets</a></p>
+				</div>
+			</section>
+			<section id="speakers" class="section mb-4 py-8">
 				<div class="container mx-auto max-w-screen-xl px-4">
 					<div class="sm:flex items-center mb-6 text-center sm:text-left">
 						<h2 class="uxok-box-shadow text-3xl font-bold max-w-screen-md  bg-blue-400 mb-2 sm:mb-0 inline-block py-2 px-4">Speakers and Schedule </h2>
@@ -326,7 +344,7 @@
 						</li>
 						<li>
 							<strong class="block text-lg">What about hotels?</strong>
-							<p>Stay at the <a target="_blank" href="https://www.hilton.com/en/hotels/tulsddt-doubletree-tulsa-downtown" class="underline text-red-600">DoubleTree</a> for a group rate, or stay at the Aloft Tulsa Downtown, Hampton Inn & Suites Tulsa Downtown, or the iconic Tulsa Mayo Hotel, which are all very close to our venue.</p>
+							<p>Stay at the DoubleTree, Aloft Tulsa Downtown, Hampton Inn & Suites Tulsa Downtown, or the iconic Tulsa Mayo Hotel, which are all very close to our venue.</p>
 						</li>
 						<li>
 							<strong class="block text-lg">Where should I park for the event?</strong>
@@ -337,9 +355,13 @@
 							<p>We will provide coffee, snacks, and drinks thru-out the day, and lunch including vegan and gluten-free options <em>(please mark any restrictions on your ticket registration form)</em>.</p>
 						</li>
 						<li>
+							<strong class="block text-lg">What's the difference in tickets?</strong>
+							<p>The corporate ticket is if your company is paying for attendance to the conference. You will help keep the conference affordable for everyone, especially students and those requiring a travel grant. Government employees should also register at the corporate rate. The general admission ticket is for individual attendees or non-profit/military/education attendees.</p>
+						</li>
+						<!-- <li>
 							<strong class="block text-lg">What if I cannot attend in person? Is there a livestream?</strong>
 							<p>Yes! This conference will be livestreamed. Please purchase a <a target="_blank" href="/tickets" class="underline text-red-600">virtual ticket</a> to get access to the stream on the day of the event.</p>
-						</li>
+						</li> -->
 
 						<!-- <li class="mb-4">
 							<strong class="block text-lg">Lorem ipsum dolor sit amet?</strong>
