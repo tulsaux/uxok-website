@@ -20,9 +20,13 @@
 		<meta property="og:type" content="website" />
 
 		<script src="https://kit.fontawesome.com/fc3cf0738c.js" crossorigin="anonymous"></script>
-		<link rel="preconnect" href="https://fonts.gstatic.com">
-		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
-		<link rel="stylesheet" href="assets/css/style.css">
+
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap" rel="stylesheet">
+		
+		<link rel="stylesheet" href="assets/css/fonts.css">
+		<link rel="stylesheet" href="assets/css/style-static.css">
 
 		<!-- Google Tag Manager -->
 		<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -34,478 +38,40 @@
 
 	</head>
 
-	<body>
+	<body class="bg-stone-200 font-barlow">
 
 		<!-- Google Tag Manager (noscript) -->
 		<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PVCV2SC"
 		height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 		<!-- End Google Tag Manager (noscript) -->
 
-		
-
-		<header class="sticky top-0 bg-white  z-20 md:shadow-md">			
-			<div class="max-w-screen-xl container mx-auto sm:p-4 relativ ">
-				<div class="flex items-center justify-between relative p-4 sm:p-0 shadow-md md:shadow-none">
-					<a class="logo block" href="/">
-						<img class="w-52 block" alt="UXOK" src="assets/images/2021/uxok-red.svg" />
-					</a>
-					<nav>
-						<label class="sm:hidden " for="menu-toggle">
-							<i class="fa fa-bars fa-lg"></i>
-						</label>
-						<input type="checkbox" id="menu-toggle" value="">
-						<ul class="nav-list list-none hidden w-full  md:flex flex-col sm:flex-row gap-y-6 sm:items-center sm:gap-x-6 shadow-sm bg-slate-100 md:bg-white md:shadow-none">
-							<li class=""><a href="#speakers" class="hover:underline hover:color-red-500 transition" >Speakers/Schedule</a></li>
-							<li class=""><a href="#sponsors" class="hover:underline hover:color-red-500 transition" >Sponsors</a></li>
-							<li class=""><a href="#faqs" class="hover:underline hover:color-red-500 transition" >FAQs</a></li>
-							<!-- TODO: Add URL to previous recorded talks -->
-							<!-- <li class=""><a class="inline-block py-2 px-4 text-red-500 border border-px border-red-500 hover:bg-red-500 hover:text-white transition" href="/submit-talk">Submit Talk</a></li> -->
-							<!-- <li class=""><a class="inline-block py-2 px-4 text-white border border-px border-red-500 bg-red-500 hover:bg-red-600 transition" href="/tickets">Get Tickets</a></li> -->
-						</ul>
-					</nav>
+		<main class="">
+			<div class="background pt-16 md:pt-24">
+				<div class="container max-screen-w-md mx-auto  text-center py-8 px-4  sm:p-8">
+					<h1 class="font-soggy text-4xl lg:text-5xl leading-none logo text-stone-200"><span class="block text-8xl sm:text-9xl lg:text-[200px] ">UXOK</span> Design Conference</h1>
 				</div>
 			</div>
-		</header>
-		<main>
-			<section class="hero py-16 lg:py-32">
-				<div class="max-w-screen-xl container mx-auto p-4 ">
-					<h1 class="text-4xl mb-2 font-bold">Oklahoma’s <span class="font-black">Premier</span> UX Conference</h1>
-					<h2 class="mb-6 text-2xl font-bold">Friday, August 12, 2022 <br/>Central Library | Tulsa, Oklahoma</h2>
-					<div class="flex flex-col gap-4 md:flex-row"> 
-						<!--<a class="py-2 px-4 block text-white text-white border border-px border-white hover:bg-white hover:text-red-500 md:inline-block text-center" href="/submit-talk">Submit Talk</a> -->
-						<!-- <a class="py-2 px-4 block text-white bg-red-500 border border-px border-red-500 hover:bg-red-600 md:inline-block text-center" href="/tickets">Tickets</a> -->
+			<div class=" bg-stone-200 ">
+				<div class="container max-screen-w-lg mx-auto text-center py-8 px-4 sm:p-8 text-[#323D4F]">
+					<div class="text-3xl md:text-4xl flex flex-col gap-4 lg:text-4xl lg:gap-6 lg:flex-row items-center justify-center uppercase tracking-wide mb-12">
+						<span class="leading-none">Friday, August 11</span>
+						<span class="hidden lg:block leading-none font-soggy -mt-3">.</span>
+						<span class="leading-none">Skyline on Bricktown Canal</span>
+						<span class="hidden lg:block leading-none font-soggy -mt-3">.</span>
+						<span class="hidden lg:block xl:hidden leading-none">OKC</span>
+						<span class="lg:hidden xl:block leading-none">Oklahoma City, OK</span>
+					</div>
+					<div class="flex flex-col sm:flex-row gap-4 sm:gap-6 justify-center">
+						<a href="/submit-talk" class="w-full sm:w-auto border border-4 border-[#4F596D] text-[#4F596D] px-8 py-2 inline-block text-xl bold font-soggy hover:bg-[#4F596D] hover:text-stone-200 transition">Submit Talk</a>
+						<a href="/sponsor-us" class="w-full sm:w-auto border border-4 border-[#4F596D] text-[#4F596D] px-8 py-2 inline-block text-xl bold font-soggy hover:bg-[#4F596D] hover:text-stone-200 transition">Sponsor Us</a>
 					</div>
 				</div>
-			</section>
-
-			<section id="about" class="section mb-4  py-8">
-				<div class="container mx-auto max-w-screen-xl px-4 py-4 ">
-					<h2 class="text-3xl font-bold max-w-screen-md mb-4"><span class="text-red">UXOK</span> is a design conference that focuses on user experience and related tech that make the web accessible, delightful, and functional.</h2>
-					<p class="max-w-screen-md">UXOK is organized and backed by the <a class="text-red-500 underline" href="https://www.techlahoma.org/"> Techlahoma Foundation</a> – a volunteer-run 501(c)3 non-profit. Techlahoma is dedicated to advancing Oklahomans through accessible tech training and community building.</p>
-				</div>
-			</section>
-			<section id="tickets" class="section mb-4 py-8 opacity-20 cursor-not-allowed">
-				<div class="container mx-auto max-w-screen-xl px-4">
-					<div class="sm:flex items-center mb-6 text-center sm:text-left">
-						<h2 class="uxok-box-shadow text-3xl font-bold max-w-screen-md  bg-blue-400 mb-2 sm:mb-0 inline-block py-2 px-4">Tickets </h2>
-					</div>
-
-					<p class="mb-4">Ready to attend? Register for the conference below:</p>
-
-					<ul class="mb-4"><li><strong>Corporate Ticket<sup>*</sup></strong> $150.00</li>
-						<li><strong>General Admission<sup>*</sup></strong> $100.00</li>
-						<li><strong>Scholarship Ticket</strong> $50.00 (Pay for an anonymous student admission) </li>
-						<li><strong>Student Ticket<sup>*</sup></strong> $50.00 <em>(Student ID Required)</em> </li>
-						<li><strong>Virtual Ticket</strong> $0.00 <em>(Free)</em> </li></ul>
-
-					<p class="mb-4"><em><sup>*</sup> Includes T-shirt and Catered Food at the Conference</em></p>
-
-					<ul class="list-none flex flex-col md:flex-row gap-4">
-						<li><a  style="pointer-events: none" class="py-2 px-4 block text-white bg-red-500 border border-px border-red-500  md:inline-block text-center" href="/tickets">In-Person Tickets</a></li>
-						<li><a  style="pointer-events: none" class="py-2 px-4 block text-white bg-red-500 border border-px border-red-500  md:inline-block text-center" href="/online">Virtual Tickets</a></li>
-				</ul>
-				</div>
-			</section>
-			<section id="speakers" class="section mb-4 py-8">
-				<div class="container mx-auto max-w-screen-xl px-4">
-					<div class="sm:flex items-center mb-6 text-center sm:text-left">
-						<h2 class="uxok-box-shadow text-3xl font-bold max-w-screen-md  bg-blue-400 mb-2 sm:mb-0 inline-block py-2 px-4">Speakers</h2>
-					</div>
-					<ul class="max-w-screen-md lg:max-w-screen-lg mx-auto mt-16">
-<!--This is PJ-->
-						<li class="sm:mt-24 sm:mb-8 mb-4 h-6 md:w-3/4 mx-auto">
-							<div class="text-center border-t-2 border-blue-400 relative">
-								<span class="center-h-v text-lg inline-block bg-blue-400 uxok-box-shadow py-2 px-4 font-bold">10 AM (CT)</span>
-							</div>
-						</li>
-
-						<li class="sm:flex justify-center items-center flex-row-reverse mb-24 sm:mb-12 ">
-							<div class="sm:w-1/2 xl:w-2/3 mb-4 sm:mb-0 sm:pl-6">
-								<h2 class="font-bold text-xl sm:text-2xl">A Glimpse into&nbsp;Accessibility</h2>
-								<h3 class="text-lg sm:text-xl text-md">
-									<a target="_blank" class=" underline" href="https://devrelate.io/">PJ Hagerty</a>
-									<span class="block text-base sm:text-lg">DevRelate.io, Founder</span>
-									<a class="block text-base sm:text-lg underline text-blue-600" target="_blank" href="https://twitter.com/aspleenic"><i class="fab fa-twitter"></i>/aspleenic</a>
-								</h3>
-							</div>
-							<img class="black-shadow  sm:ml-6 sm:w-1/2 xl:w-1/3 max-w-xs" src="assets/images/2022/speakers/pj-hagerty.jpg"/>
-						</li>
-
-						<!-- <li class="sm:flex justify-center items-center mb-24 sm:mb-12 ">
-							<div class="sm:w-1/2 xl:w-2/3 mb-4 sm:mb-0 sm:pl-6">
-								<h2 class="font-bold text-xl sm:text-2xl">A Glimpse into&nbsp;Accessibility</h2>
-								<h3 class="text-lg sm:text-xl text-md">
-									<a target="_blank" class=" underline" href="https://devrelate.io/">PJ Hagerty</a>
-									<span class="block text-base sm:text-lg">DevRelate.io, Founder</span>
-									<a class="block text-base sm:text-lg underline text-blue-600" target="_blank" href="https://twitter.com/aspleenic"><i class="fab fa-twitter"></i>/aspleenic</a>
-								</h3>
-							</div>
-							<img class="black-shadow  sm:ml-6 sm:w-1/2 xl:w-1/3 max-w-xs" src="assets/images/2022/speakers/pj-hagerty.jpg"/>
-						</li> -->
-	<!--this ends PJ-->		
-	<!-- this starts shailvi-->
-	<li class="sm:mt-24 sm:mb-8 mb-4 h-6 md:w-3/4 mx-auto">
-		<div class="text-center border-t-2 border-blue-400 relative">
-			<span class="center-h-v text-lg inline-block bg-blue-400 uxok-box-shadow py-2 px-4 font-bold">11 AM (CT)</span>
-		</div>
-	</li>
-
-	<!-- <li class="sm:flex justify-center items-center flex-row-reverse mb-24 sm:mb-12 ">
-		<div class="sm:w-1/2 xl:w-2/3 mb-4 sm:mb-0 sm:pl-6">
-			<h2 class="font-bold text-xl sm:text-3xl mb-4">No Woman Left Behind <small class="block text-lg sm:text-xl">Designing for&nbsp;Intersectionality</small></h2>
-			<h3 class="text-lg sm:text-xl text-md">
-				<a target="_blank" class=" underline" href="
-				http://www.shailvi.com/">Shailvi Wakhlu</a>
-				<span class="block text-base sm:text-lg">Strava, Senior Director of Data</span>
-				<a class="block text-base sm:text-lg underline text-blue-600" target="_blank" href="https://twitter.com/ShailviW"><i class="fab fa-twitter"></i>/ShailviW</a>
-			</h3>
-		</div>
-		<img class="black-shadow  sm:ml-6 sm:w-1/2 xl:w-1/3 max-w-xs" src="assets/images/2022/speakers/shailvi-wakhlu.jpg"/>
-	</li> -->
-
-	<li class="sm:flex justify-center items-center mb-24 sm:mb-16">
-		<div class=" sm:w-1/2 sm:text-right mb-4 sm:mb-0 sm:pl-6 xl:w-2/3">
-			<h2 class="font-bold text-xl sm:text-3xl mb-4">Research and Service Design for Enterprise&nbsp;Software</h2>
-			<h3 class="text-lg sm:text-xl text-md">
-				<a target="_blank" class=" underline" href="https://www.jenniferblatzdesign.com/">Jennifer Blatz</a>
-				<span class="block text-base sm:text-lg">Rocket Mortgage, Lead User Experience Designer and Researcher</span>
-				<a class="block text-base sm:text-lg underline text-blue-600" target="_blank" href="https://twitter.com/jnblatz"><i class="fab fa-twitter"></i>/jnblatz</a>
-			</h3>
-		</div>
-		<img class="black-shadow  sm:ml-6 sm:w-1/2 xl:w-1/3 max-w-xs" src="assets/images/2022/speakers/jennifer-blatz.jpg"/>
-	</li>
-
-	<!--this ends shailvi-->
-	<!--Lunch starts-->
-	<li class="sm:mt-24 sm:mb-8 mb-4 h-6 md:w-3/4 mx-auto">
-		<div class="text-center border-t-2 border-blue-400 relative">
-			<span class="center-h-v text-lg inline-block bg-blue-400 uxok-box-shadow py-2 px-4 font-bold">12 PM (CT) Lunch</span>
-
-			
-			
-		</div>
-	</li>
-
-	<li class="sm:flex justify-center items-center mb-24 sm:mb-16">
-		<div class="">
-			<h2 class="font-bold text-xl sm:text-3xl mb-4">Sponsored by Jinn Studios</h2>
-			
-		</div>
-		<!-- <img class="black-shadow  sm:ml-6 sm:w-1/2 xl:w-1/3 max-w-xs" src="assets/images/2022/speakers/jennifer-blatz.jpg"/> -->
-	</li>
-
-<!-- lunch ends-->
-<!--This starts Jennifer-->
-						
-
-<!--This ends jennifer-->
-	<!--activity hour starts-->
-	<li class="sm:mt-24 sm:mb-8 mb-4 h-6 md:w-3/4 mx-auto">
-		<div class="text-center border-t-2 border-blue-400 relative">
-			<span class="center-h-v text-lg inline-block bg-blue-400 uxok-box-shadow py-2 px-4 font-bold">1 PM (CT) Activity Hour</span>
-		</div>
-	</li>
-	<li class="sm:flex justify-center items-center mb-24 sm:mb-16">
-		<div class=" sm:w-1/2 sm:text-center mb-4 sm:mb-0 sm:pl-6 xl:w-2/3">
-			<h2 class="font-bold text-xl sm:text-3xl mb-4">Activity Hour!</h2>
-			<h3 class="text-lg sm:text-xl text-md">
-				<span class="block text-base sm:text-lg">More Details at the Event!</span>
-			</h3>
-		</div>
-	</li>
-
-
-<!-- activity hour ends-->
-<!--This starts Kerry-->
-
-						<li class="sm:mt-24 sm:mb-8 mb-4 h-6 md:w-3/4 mx-auto">
-							<div class="text-center border-t-2 border-blue-400 relative">
-								<span class="center-h-v text-lg inline-block bg-blue-400 uxok-box-shadow py-2 px-4 font-bold">2 PM (CT)</span>
-							</div>
-						</li>
-						<li class="sm:flex justify-center items-center flex-row-reverse mb-24 sm:mb-12 ">
-							<div class="sm:w-1/2 xl:w-2/3 mb-4 sm:mb-0 sm:pl-6">
-								<h2 class="font-bold text-xl sm:text-2xl">Manage Your Continuous UX Iterative Loops with Good&nbsp;Evaluation</h2>
-								<h3 class="text-lg sm:text-xl text-md">
-									<a target="_blank" class=" underline" href="https://atomicobject.com/">Kerry Severin</a>
-									<span class="block text-base sm:text-lg">Senior Product Designer and Manager</span>
-									<a class="block text-base sm:text-lg underline text-blue-600" target="_blank" href="https://twitter.com/KMSeverin"><i class="fab fa-twitter"></i>/KMSeverin</a>
-								</h3>
-							</div>
-							<img class="black-shadow  sm:ml-6 sm:w-1/2 xl:w-1/3 max-w-xs" src="assets/images/2022/speakers/kerry-severin.jpg"/>
-						</li>
-<!--This ends Kerry-->
-	<!--this starts Kelsey-->
-	<li class="sm:mt-24 sm:mb-8 mb-4 h-6 md:w-3/4 mx-auto">
-		<div class="text-center border-t-2 border-blue-400 relative">
-			<span class="center-h-v text-lg inline-block bg-blue-400 uxok-box-shadow py-2 px-4 font-bold">3 PM (CT)</span>
-		</div>
-	</li>
-
-	<li class="sm:flex justify-center items-center mb-24 sm:mb-16">
-		<div class=" sm:w-1/2 sm:text-right mb-4 sm:mb-0 sm:pl-6 xl:w-2/3">
-			<h2 class="font-bold text-xl sm:text-3xl mb-4">Optimizing For Fun <small class="block text-lg sm:text-xl">Building delightful products at&nbsp;BuzzFeed</small></h2>
-			<h3 class="text-lg sm:text-xl text-md">
-				<a target="_blank" class=" underline" href="https://www.kelseyscherer.com/speaking">Kelsey Scherer</a>
-				<span class="block text-base sm:text-lg">BuzzFeed, Senior Director of Product Design</span>
-
-				<a class="block text-base sm:text-lg underline text-blue-600" target="_blank" href="https://twitter.com/kelsa_"><i class="fab fa-twitter"></i>/kelsa_</a>
-			</h3>
-		</div>
-		<img class="black-shadow  sm:ml-6 sm:w-1/2 xl:w-1/3 max-w-xs" src="assets/images/2022/speakers/kelsey-scherer.jpg"/>
-	</li>
-
-<!--This ends Kelsey-->
-	<!--activity party starts-->
-	<li class="sm:mt-24 sm:mb-8 mb-4 h-6 md:w-3/4 mx-auto">
-		<div class="text-center border-t-2 border-blue-400 relative">
-			<span class="center-h-v text-lg inline-block bg-blue-400 uxok-box-shadow py-2 px-4 font-bold">4 PM (CT)</span>
-		</div>
-	</li>
-	<li class="sm:flex justify-center items-center mb-24 sm:mb-16">
-		<div class=" sm:w-1/2 sm:text-center mb-4 sm:mb-0 sm:pl-6 xl:w-2/3">
-			<h2 class="font-bold text-xl sm:text-3xl mb-4">Networking Hour</h2>
-			<h3 class="text-lg sm:text-xl text-md">
-				<span class="block text-base sm:text-lg">Meet in-person with attendees and connect with the local UX community.</span>
-			</h3>
-		</div>
-	</li>
-
-
-	<li class="sm:mt-24 sm:mb-8 mb-4 h-6 md:w-3/4 mx-auto">
-		<div class="text-center border-t-2 border-blue-400 relative">
-			<span class="center-h-v text-lg inline-block bg-blue-400 uxok-box-shadow py-2 px-4 font-bold">5-8 PM (CT) After-Party</span>
-		</div>
-	</li>
-	<li class="sm:flex justify-center items-center flex-row-reverse mb-24 sm:mb-12 ">
-		<div class="sm:w-1/2 xl:w-2/3 mb-4 sm:mb-0 sm:pl-6">
-			<h2 class="font-bold text-xl sm:text-3xl mb-4">Loud in a Library <small class="block text-lg sm:text-xl">Tulsa City-County Central Library - Tandy Garden</small></h2>
-			<p class="my-2">Urban Coders Guild is proud to sponsor the official UXOK 2022 Conference after-party.</p>
-			<p class="my-2">DJ ECOG will be pumping the beat.</p>
-			<p class="my-2">Light food and drinks will be available. Must be 21+ to drink!</p>
-			<p class="my-2"><a class="py-2 px-4 block text-white bg-red-500 border border-px border-red-500 hover:bg-red-600 md:inline-block text-center" href="https://loudinalibrary.splashthat.com/" target="_blank" rel="">RSVP</a></p>
-		</div>
-		<img class="black-shadow  sm:ml-6 sm:w-1/2 xl:w-1/3 max-w-xs" src="assets/images/2022/speakers/ucg.jpg"/>
-	</li>
-
-	<li class="sm:mt-24 sm:mb-8 mb-4 h-6 md:w-3/4 mx-auto">
-		<div class="text-center border-t-2 border-blue-400 relative">
-			<span class="center-h-v text-lg inline-block bg-blue-400 uxok-box-shadow py-2 px-4 font-bold">To Be Rescheduled</span>
-		</div>
-	</li>
-
-	<!-- <li class="sm:flex justify-center items-center flex-row-reverse mb-24 sm:mb-12 ">
-		<div class="sm:w-1/2 xl:w-2/3 mb-4 sm:mb-0 sm:pl-6">
-			<h2 class="font-bold text-xl sm:text-3xl mb-4">No Woman Left Behind <small class="block text-lg sm:text-xl">Designing for&nbsp;Intersectionality</small></h2>
-			<h3 class="text-lg sm:text-xl text-md">
-				<a target="_blank" class=" underline" href="
-				http://www.shailvi.com/">Shailvi Wakhlu</a>
-				<span class="block text-base sm:text-lg">Strava, Senior Director of Data</span>
-				<a class="block text-base sm:text-lg underline text-blue-600" target="_blank" href="https://twitter.com/ShailviW"><i class="fab fa-twitter"></i>/ShailviW</a>
-			</h3>
-		</div>
-		<img class="black-shadow  sm:ml-6 sm:w-1/2 xl:w-1/3 max-w-xs" src="assets/images/2022/speakers/shailvi-wakhlu.jpg"/>
-	</li> -->
-
-	<li class="sm:flex justify-center items-center mb-24 sm:mb-16">
-		<div class=" sm:w-1/2 sm:text-right mb-4 sm:mb-0 sm:pl-6 xl:w-2/3">
-			<h2 class="font-bold text-xl sm:text-3xl mb-4">No Woman Left Behind <small class="block text-lg sm:text-xl">Designing for&nbsp;Intersectionality</small></h2>
-			<h3 class="text-lg sm:text-xl text-md">
-				<a target="_blank" class=" underline" href="http://www.shailvi.com/">Shailvi Wakhlu</a>
-				<span class="block text-base sm:text-lg">Strava, Senior Director of Data</span>
-				<a class="block text-base sm:text-lg underline text-blue-600" target="_blank" href="https://twitter.com/ShailviW"><i class="fab fa-twitter"></i>/ShailviW</a>
-			</h3>
-		</div>
-		<img class="black-shadow  sm:ml-6 sm:w-1/2 xl:w-1/3 max-w-xs" src="assets/images/2022/speakers/shailvi-wakhlu.jpg"/>
-	</li>
-	
-
-<!-- after party ends-->
-					</ul>
-				</div>
-			</section>
-			<section id="sponsors" class="section mb-4 py-8">
-				<div class="container mx-auto max-w-screen-xl px-4 py-4">
-					<h2 class="uxok-box-shadow green text-3xl font-bold max-w-screen-md mb-4 bg-blue-400 inline-block py-2 px-4">Sponsors</h2>
-					<h3 id="title-sponsor" class="text-center sm:text-left italic font-bold mt-8 text-2xl border-bottom border-0 border-gray-400 border-b-2 border-dashed border-dashed mb-4">Lunch</h3>
-					<ul class="list-none items-center mb-8">
-						<li class="inline-block">
-							<a target="_blank" class="block text-center w-72 hover:scale-105 transition-transform" href="https://jinnstudios.com/">
-								<img alt="Heartland" class="w-full block  mx-auto rounded-md overflow-hidden" src="assets/images/2022/sponsors/jinnstudios.png"/>
-							</a>
-						</li>
-					</ul>
-
-					<h3 class="text-center sm:text-left italic font-bold text-2xl border-bottom border-0 border-gray-400 border-b-2 border-dashed border-dashed mb-4">Bronze Level</h3>
-					<ul class="list-none flex gap-y-4 sm:gap-y-0 flex-col sm:flex-row items-start gap-x-4 mb-8">
-						<li class="">
-							<a target="_blank" class="block text-center w-40 hover:scale-105 transition-transform" href="https://www.gitwit.com/">
-								<img alt="Gitwit" class="w-full block  mx-auto rounded-md overflow-hidden" src="assets/images/2022/sponsors/gitwit.jpg"/>
-							</a>
-						</li>
-						<li class="">
-							<a target="_blank" class="block text-center w-40 hover:scale-105 transition-transform" href="https://www.heartland.us/about/in-the-community">
-								<img alt="Heartland" class="w-full block  mx-auto rounded-md overflow-hidden" src="assets/images/2022/sponsors/heartland.png"/>
-							</a>
-						</li>
-					</ul>
-
-					<h3 class="text-center sm:text-left italic font-bold text-2xl border-bottom border-0 border-gray-400 border-b-2 border-dashed border-dashed mb-4">Local Level</h3>
-					<ul class="list-none flex gap-y-4 sm:gap-y-0 flex-col sm:flex-row items-start gap-x-4">
-						<li class="">
-							<a target="_blank" class="block text-center w-40 hover:scale-105 transition-transform" href="https://www.bitnesslabs.com/">
-								<img alt="Bitness Labs" class="w-full block  mx-auto rounded-md overflow-hidden" src="assets/images/2022/sponsors/bitness-labs.png"/>
-							</a>
-						</li>
-					</ul>
-
-
-					<p class="mt-8 mb-4">Interested in becoming a sponsor? See our <a download class="underline text-red-600" href="/sponsor">sponsorship prospectus (PDF)</a> or contact us to get started.</p>
-					<h3 class="text-xl uppercase font-bold max-w-screen-md mb-2 mt-4 inline-block">Become a Sponsor</h3>
-					<div class="bg-green-100 p-4 uxok-box-shadow lime max-w-screen-md">
-						<form name="contact" method="POST" data-netlify="true">
-							<div class="mb-4">
-								<label class="block text-lg font-bold" for="email">Email</label>
-								<input required class="p-2 block w-full" name="email" type="email" value="" placeholder="name@company.com">
-							</div>
-							<div class="mb-4">
-								<label class="block text-lg font-bold" for="name">Name</label>
-								<input required class="p-2 block w-full" name="name" type="text" value="" placeholder="">
-							</div>
-							<div class="mb-4">
-								<label class="block text-lg font-bold" for="company">Company</label>
-								<input required class="p-2 block w-full" name="company" type="text" value="" placeholder="Company">
-							</div>
-							<div class="">
-								<input type="submit" class="py-2 px-4 b-0 text-2xl bg-green-900 text-white font-bold uxok-box-shadow greener cursor-pointer" value="Let's talk!">
-							</div>
-
-
-						</form>
-					</div>
-				</div>
-			</section>
-			<section id="faqs" class="section py-8">
-				<div class="container mx-auto max-w-screen-xl px-4 border-b-2 py-4 mb-4">
-					<h2 class="uxok-box-shadow red text-3xl font-bold max-w-screen-md  bg-blue-400 mb-4 inline-block py-2 px-4">FAQs </h2>
-					<ul class="list-none flex flex-col gap-4">
-						<li>
-							<strong class="block text-lg">Where is the conference?</strong>
-							<p>We are at the <a target="_blank" href="https://www.tulsalibrary.org/locations/central" class="underline text-red-600">Tulsa Central Library</a> in the Pocahontas Greadington Learning and Creativity Center (Lower Level 2).</p>
-						</li>
-						<li class="">
-							<strong class="block text-lg">I’m new to UX. Is this conference for me?</strong>
-							<p>Absolutely. Our conference covers subjects for all UX knowledge levels.</p>
-						</li>
-						<li class="">
-							<strong class="block text-lg">Will I have a chance to network with other attendees?</strong>
-							<p>Yes! After the conference, we host an optional after-party for attendees to meet up.</p>
-						</li>
-						<li>
-							<strong class="block text-lg">What airport should I use if flying in for the conference?</strong>
-							<p><a target="_blank" href="https://www.tulsaairports.com/" class="underline text-red-600">Tulsa International Airport</a> (TUL) is our airport.</p>
-						</li>
-						<li>
-							<strong class="block text-lg">Once I'm in Tulsa, how should I get around?</strong>
-							<p>Uber & Lyft are both available in Tulsa. We also have scooters from Bird and Lime and bicycles are available from <a target="_blank" href="https://thismachinetulsa.com/" class="underline text-red-600">This Machine bike share</a>.</p>
-						</li>
-						<li>
-							<strong class="block text-lg">What about hotels?</strong>
-							<p>Stay at the Aloft Tulsa Downtown for a group rate! Prefer another place? Stay at Hampton Inn & Suites Tulsa Downtown, orthe iconic Tulsa Mayo Hotel, which are all very close to our venue.</p>
-							<p><a target="_blank" href="https://www.marriott.com/event-reservations/reservation-link.mi?id=1658862319901&key=GRP&app=resvlink" class="underline text-red-600">Aloft Hotel Group Rate Link</a></p>
-						</li>
-						<li>
-							<strong class="block text-lg">Where should I park for the event?</strong>
-							<p>We recommend parking in the <a target="_blank" href="https://www.tulsalibrary.org/locations/central/central-library-parking" class="underline text-red-600">Central Library parking garage</a>, however there are many other public lots close by.</p>
-						</li>
-						<li>
-							<strong class="block text-lg">Will food be provided during the conference?</strong>
-							<p>We will provide coffee, snacks, and drinks thru-out the day, and lunch including vegan and gluten-free options <em>(please mark any restrictions on your ticket registration form)</em>.</p>
-						</li>
-						<li>
-							<strong class="block text-lg">What's the difference in tickets?</strong>
-							<p>The corporate ticket is if your company is paying for attendance to the conference. You will help keep the conference affordable for everyone, especially students and those requiring a travel grant. Government employees should also register at the corporate rate. The general admission ticket is for individual attendees or non-profit/military/education attendees.</p>
-						</li>
-						<!-- <li>
-							<strong class="block text-lg">What if I cannot attend in person? Is there a livestream?</strong>
-							<p>Yes! This conference will be livestreamed. Please purchase a <a target="_blank" href="/tickets" class="underline text-red-600">virtual ticket</a> to get access to the stream on the day of the event.</p>
-						</li> -->
-
-						<!-- <li class="mb-4">
-							<strong class="block text-lg">Lorem ipsum dolor sit amet?</strong>
-							<p>consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-						</li>
-						<li class="mb-4">
-							<strong class="block text-lg">Lorem ipsum dolor sit amet?</strong>
-							<p>consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-						</li>
-						<li class="mb-4">
-							<strong class="block text-lg">Lorem ipsum dolor sit amet?</strong>
-							<p>consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-						</li> -->
-					</ul>
-				</div>
-			</section>
-
-			<section class="disclaimer pb-4">
-				<div class="max-w-screen-xl container mx-auto p-4 italic">
-					<p>Before attending the conference, please review the Techlahoma <a class="text-red-500 underline" href="https://www.techlahoma.org/code-of-conduct">Code of Conduct</a>. The Code of Conduct applies to all attendees, speakers, volunteers, and vendors at official and unofficial events by Techlahoma and any location where attendees may be congregating. <a class="text-red-500 underline" href="mailto:uxok@techlahoma.org">Contact us</a> if you have questions.</p>
-				</div>
-
-			</section>
+			</div>
 		</main>
-		<footer>
-			<div class="max-w-screen-xl container mx-auto p-4">
-				<div class="sm:flex justify-between">
-					<div class="mb-4 sm:mb-2">
-						<a class="logo mb-4 block mx-auto sm:mx-0" href="#">
-							<img alt="UXOK" src="assets/images/2021/uxok-white.svg" />
-						</a>
-						<div class="flex">
-							<ul class="list-none flex justify-center sm:justify-start w-full">
-								<li class="mr-4">
-									<a class="hover:text-red-600 transition-colors" href="mailto:uxok@techlahoma.org"> <i class="fa fa-envelope"></i> </a>
-								</li>
-								<li class="mr-4">
-									<a class="hover:text-red-600 transition-colors" target="_blank" href="https://twitter.com/uxokconf"> <i class="fab fa-twitter"></i> </a>
-								</li>
-								<li class="mr-4">
-									<a class="hover:text-red-600 transition-colors" href="https://instagram.com/uxokconf"> <i class="fab fa-instagram"></i> </a>
-								</li>
-								<li class="">
-									<a class="hover:text-red-600 transition-colors" href="https://github.com/tulsaux/uxok-website"> <i class="fab fa-github"></i> </a>
-								</li>
-							</ul>
-						</div>
-					</div>
-					<div class="mb-4 sm:mb-0">
-						<ul class="list-none flex justify-center w-full mb-2">
-							<li class="mr-4">
-								<a class="hover:text-red-600" href="https://www.techlahoma.org/code-of-conduct">Code of Conduct</a>
-							</li>
-							<li class="mr-4">
-								<a class="hover:text-red-600" href="mailto:uxok@techlahoma.org">Contact</a>
-							</li>
-							<li class="mr-4">
-								<a class="hover:text-red-600" href="privacy.html">Privacy Policy</a>
-							</li>
-						</ul>
-						<div class=" text-center sm:text-left">
-							<span class="block opacity-75">Past UXOK Conferences Archive:</span>
-							<ul class="list-none flex justify-center sm:justify-start w-full">
-								<li class="mr-4">
-									<a class="hover:text-red-600" href="/archive/2021">2021</a>
-								</li>
-							</ul>
-						</div>
-					</div>
-				</div>
-				<div class="text-white opacity-75 text-center sm:text-left">
-					&copy; 2022 Techlahoma Foundation. All rights reserved.
-				</div>
-
-			</div>
+		<footer class=" mt-16 md:mt-24 text-center  uppercase ">
+			&copy; 2023 <strong><a href="https://www.techlahoma.org/">Techlahoma Foundation</a></strong>. All rights reserved
 		</footer>
+
 		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-101276171-3"></script>
 		<script src="https://cdn.tailwindcss.com"></script>
 		<!-- <script src="https://js.tito.io/v1" async></script> -->
