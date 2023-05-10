@@ -5,10 +5,11 @@
 # /meet		    https://meet.google.com/jgg-xdrn-dqv
 # /networking	    https://meet.google.com/jgg-xdrn-dqv
 
-/register	    https://techlahoma.app.neoncrm.com/np/clients/techlahoma/eventRegistration.jsp?event=2
-/tickets        https://techlahoma.app.neoncrm.com/np/clients/techlahoma/eventRegistration.jsp?event=2
-/papercall      https://www.papercall.io/uxok
-/submit-talk    https://www.papercall.io/uxok
-/sponsor        /assets/docs/UXOK-SponsorshipProspectus-2022.pdf
-/online        https://fansub.live/e/uxokdesignconference
-/survey        https://docs.google.com/forms/d/e/1FAIpQLSda5ETy6mKi4_56eL02N9wUyoDPpY_2XomBflnj9d58BsWC2Q/viewform?usp=sf_link
+# /register	    https://techlahoma.app.neoncrm.com/np/clients/techlahoma/eventRegistration.jsp?event=2
+# /tickets        https://techlahoma.app.neoncrm.com/np/clients/techlahoma/eventRegistration.jsp?event=2
+/papercall      https://www.papercall.io/uxok2023
+/submit-talk    https://www.papercall.io/uxok2023
+/sponsor        https://drive.google.com/file/d/19be40Qsmer3PW7ud4vreYMYkcRdcahX9/view?usp=share_link
+/sponsor-us        https://drive.google.com/file/d/19be40Qsmer3PW7ud4vreYMYkcRdcahX9/view?usp=share_link
+# /online        https://fansub.live/e/uxokdesignconference
+# /survey        https://docs.google.com/forms/d/e/1FAIpQLSda5ETy6mKi4_56eL02N9wUyoDPpY_2XomBflnj9d58BsWC2Q/viewform?usp=sf_link
