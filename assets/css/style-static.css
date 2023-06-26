@@ -14,6 +14,10 @@ html {
   box-sizing: inherit;
 }
 
+p {
+  line-height: 1.2rem;
+}
+
 /* Fonts */
 
 .logo span {
@@ -21,7 +25,6 @@ html {
 }
 
 /* Background */
-
 .background {
   background-color: #4F596D;
   opacity: 1;
