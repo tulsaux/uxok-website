@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html class="scroll-smooth" lang="en" dir="ltr">
 
 	<head>
 		<meta charset="utf-8">
@@ -19,7 +19,7 @@
 		<meta property="og:url" content="https://uxok.org/">
 		<meta property="og:type" content="website" />
 
-		<script src="https://kit.fontawesome.com/fc3cf0738c.js" crossorigin="anonymous"></script>
+		<script src="https://kit.fontawesome.com/0f5346defd.js" crossorigin="anonymous"></script>
 
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -45,40 +45,288 @@
 		height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 		<!-- End Google Tag Manager (noscript) -->
 
-		<main class="">
-			<div class="background pt-16 md:pt-24">
-				<div class="container max-screen-w-md mx-auto  text-center py-8 px-4  sm:p-8">
-					<h1 class="font-soggy text-4xl lg:text-5xl leading-none logo text-stone-200"><span class="block text-8xl sm:text-9xl lg:text-[200px] ">UXOK</span> Design Conference</h1>
-				</div>
+		<header class="uxok-bg-blue-900 hidden sm:block sticky top-0 shadow-sm z-20">
+			<div class="container max-screen-w-md mx-auto  text-center py-4 px-4 sm:px-8">
+				<nav class="text-stone-200 font-soggy flex flex-row gap-8 w-full justify-center">
+					<a class="hover:underline hover:decoration-2 hover:underline-offset-4" href="#tickets">Ticketing</a>
+					<a class="hover:underline hover:decoration-2 hover:underline-offset-4" href="#speakers">Speakers</a>
+					<a class="hover:underline hover:decoration-2 hover:underline-offset-4" href="#sponsors">Sponsors</a>
+					<a class="hover:underline hover:decoration-2 hover:underline-offset-4" href="#faq">FAQs</a>
+					<a class="hover:underline hover:decoration-2 hover:underline-offset-4" href="#about">About</a>
+					<!-- <a class="hover:underline hover:decoration-2 hover:underline-offset-4" href="#contact">Contact</a> -->
+				</nav>
 			</div>
-			<div class=" bg-stone-200 ">
-				<div class="container max-screen-w-lg mx-auto text-center py-8 px-4 sm:p-8 text-[#323D4F]">
-					<div class="text-3xl md:text-4xl flex flex-col gap-4 lg:text-4xl lg:gap-6 lg:flex-row items-center justify-center uppercase tracking-wide mb-12">
-						<span class="leading-none">Friday, August 11</span>
-						<span class="hidden lg:block leading-none font-soggy -mt-3">.</span>
-						<span class="leading-none">Skyline on Bricktown Canal</span>
-						<span class="hidden lg:block leading-none font-soggy -mt-3">.</span>
-						<span class="hidden lg:block xl:hidden leading-none">OKC</span>
-						<span class="lg:hidden xl:block leading-none">Oklahoma City, OK</span>
+		</header>
+		
+		<main class="">
+			<section class="" id="hero">
+				<div class="background">
+					<div class="container max-screen-w-md mx-auto  text-center py-8 px-4  sm:p-8">
+						<h1 class="font-soggy text-4xl lg:text-5xl leading-none logo text-stone-200"><span class="block text-8xl sm:text-9xl lg:text-[200px] ">UXOK</span> Design Conference</h1>
 					</div>
-					<!-- TWO UP PATTERN -->
-					<!-- <div class="flex flex-col md:flex-row gap-4 md:gap-6 justify-center">
-						<a href="/submit-talk" class="w-full md:w-auto border border-4 text-stone-200 border-[#4F596D] bg-[#4F596D] px-8 py-2 inline-block text-xl bold font-soggy hover:bg-[#374258] hover:border-[#374258] hover:text-stone-200 transition hover:scale-105">Submit Talk</a>
-						<a href="/tickets" class="w-full md:w-auto border border-4 border-[#4F596D] text-[#4F596D] px-8 py-2 inline-block text-xl bold font-soggy hover:bg-[#4F596D] hover:text-stone-200 transition hover:scale-105">Buy Tickets</a>
-					</div> -->
-					<!-- Three Up -->
-					<div class="flex flex-col lg:flex-row gap-4 md:gap-6 justify-center max-w-[500px] mx-auto lg:max-w-full">
-						<a href="/submit-talk" class="w-full md:w-auto border border-4 text-stone-200 border-[#4F596D] bg-[#4F596D] px-8 py-2 inline-block text-xl bold font-soggy hover:bg-[#374258] hover:border-[#374258] hover:text-stone-200 transition hover:scale-105">Submit Talk</a>
-						<div class="flex flex-col md:flex-row gap-4 md:gap-6 justify-center ">
-							<a href="/tickets" class="w-full lg:w-auto border border-4 border-[#4F596D] text-[#4F596D] px-8 py-2 inline-block text-xl bold font-soggy hover:bg-[#4F596D] hover:text-stone-200 transition hover:scale-105">Buy Tickets</a>
-							<a href="/sponsor-us" class="w-full lg:w-auto border border-4 border-[#4F596D] text-[#4F596D] px-8 py-2 inline-block text-xl bold font-soggy hover:bg-[#4F596D] hover:text-stone-200 transition hover:scale-105">Sponsor Us</a>
+				</div>
+				<div class=" bg-stone-200 ">
+					<div class="container max-screen-w-lg mx-auto text-center py-8 px-4 sm:p-8 text-[#323D4F]">
+						<div class="text-3xl md:text-4xl flex flex-col gap-4 lg:text-4xl lg:gap-6 lg:flex-row items-center justify-center uppercase tracking-wide mb-4">
+							<span class="leading-none">Friday, August 11</span>
+							<span class="hidden lg:block leading-none font-soggy -mt-3">.</span>
+							<span class="leading-none">Skyline on Bricktown Canal</span>
+							<span class="hidden lg:block leading-none font-soggy -mt-3">.</span>
+							<span class="hidden lg:block xl:hidden leading-none">OKC</span>
+							<span class="lg:hidden xl:block leading-none">Oklahoma City, OK</span>
+						</div>
+						<!-- <div class="bg-gradient-to-r from-orange-500 via-rose-700 to-orange-500 h-1 mb-8 rounded max-w-screen-lg mx-auto"></div> -->
+						<!-- TWO UP PATTERN -->
+						<!-- <div class="flex flex-col md:flex-row gap-4 md:gap-6 justify-center">
+							<a href="/submit-talk" class="text-center w-full md:w-auto border border-4 text-stone-200 border-[#4F596D] bg-[#4F596D] px-8 py-2 inline-block text-xl bold font-soggy hover:bg-[#374258] hover:border-[#374258] hover:text-stone-200 transition hover:scale-105">Submit Talk</a>
+							<a href="/tickets" class="w-full md:w-auto border border-4 border-[#4F596D] text-[#4F596D] px-8 py-2 inline-block text-xl bold font-soggy hover:bg-[#4F596D] hover:text-stone-200 transition hover:scale-105">Buy Tickets</a>
+						</div> -->
+						<!-- Three Up -->
+						<div class="flex flex-col lg:flex-row gap-4 md:gap-6 justify-center max-w-[500px] mx-auto lg:max-w-full">
+							<a href="/tickets" class="text-center w-full md:w-auto border border-4 text-stone-200 border-[#4F596D] bg-[#4F596D] px-8 py-2 inline-block text-xl bold font-soggy hover:bg-[#374258] hover:border-[#374258] hover:text-stone-200 transition hover:scale-105">Buy Tickets</a>
+							<div class="flex flex-col md:flex-row gap-4 md:gap-6 justify-center ">
+								<a href="/sponsor-us" class="w-full lg:w-auto border border-4 border-[#4F596D] text-[#4F596D] px-8 py-2 inline-block text-xl bold font-soggy hover:bg-[#4F596D] hover:text-stone-200 transition hover:scale-105">Sponsor Us</a>
+							</div>
 						</div>
 					</div>
+				</div>				
+			</section>
+			<section class="mb-8" id="tickets">
+				<div class="container max-w-screen-md mx-auto text-left py-4 px-4 sm:px-8 border">
+					<!-- Header -->
+					<div class="text-left mb-4"><h2 class="pt-16 font-soggy text-3xl sm:text-4xl md:text-5xl tracking-wide pr-1 border-stone-400 border-b border-b-2 pb-1 border-dashed inline-block uxok-text-blue-600">Tickets</h2></div>
+
+					<p class="mb-2">Dive into the world of user experience at UXOK. Connect with industry leaders, explore informative sessions on the latest trends and cutting-edge technologies in UX design, and expand your professional network.</p>
+
+					<p class="mb-8">Buying more than 4 tickets? <a class="underline" href="mailto:uxok@techlahoma.org">Contact us</a> for a special rate.</p>
+
+					<h3 class="font-soggy text-2xl tracking-wide uxok-text-blue-600 mb-2">TICKET TYPES</h3>
+
+					<div class="max-w-md flex flex-col gap-4 mb-8">
+						<!-- Ticket Tier -->
+						<div class="w-full bg-stone-100 p-4 rounded drop-shadow-sm">
+							<h3 class="text-xl uppercase flex justify-between font-bold mb-2"><strong>General Admission</strong><span>$175.00</span></h3>
+							<p class="italic uxok-text-blue-600">Access to the only UX/UI conference in Oklahoma.</p>
+						</div>
+						
+						<!-- Ticket Tier -->
+						<div class="w-full bg-stone-100 p-4 rounded drop-shadow-sm">
+							<h3 class="text-xl uppercase flex justify-between font-bold mb-2"><strong>Professional Ticket</strong><span>$275.00</span></h3>
+							<p class="italic uxok-text-blue-600">The corporate rate is if your company is paying for attendance to the conference. See <a class="underline" href="#question-corporate-ticket">our FAQ</a> for more information. </p>
+						</div>
+						
+						<!-- Ticket Tier -->
+						<div class="w-full bg-stone-100 p-4 rounded drop-shadow-sm">
+							<h3 class="text-xl uppercase flex justify-between font-bold mb-2"><strong>Student Admission</strong><span>$100.00</span></h3>
+							<p class="italic uxok-text-blue-600">From traditional universities, to trade school to teaching yourself freeCodeCamp, if you identify as a student, we think you’re one too!</p>
+						</div>						
+					</div>
+					
+
+					<a href="/tickets" class="text-center w-full md:w-auto border border-4 text-stone-200 border-[#4F596D] bg-[#4F596D] px-8 py-2 inline-block text-xl bold font-soggy hover:bg-[#374258] hover:border-[#374258] hover:text-stone-200 transition hover:scale-105">Buy Tickets</a>
+
+
 				</div>
-			</div>
+			</section>
+			
+			<section class="mb-8" id="speakers">
+				<div class="container max-w-screen-md mx-auto text-left py-4 px-4 sm:px-8 border">
+					<div class="text-left mb-4 ">
+						<div class="pt-16 relative mb-4">
+							<h2 class=" font-soggy text-3xl sm:text-4xl md:text-5xl tracking-wide pr-1 border-stone-400 border-b border-b-2 pb-1 border-dashed inline-block uxok-text-blue-600">speakers</h2>
+						</div>
+						<p class="mb-8 text-xl">Speakers will be announced by <strong>July 1st</strong> so check back soon!</p>
+
+						<div class="relative">
+							<span class="uxok-text-blue-900 text-center absolute top-8 md:top-16 sm:top-16 left-8 md:top-24 sm:left-1/4 -rotate-6 font-soggy text-3xl sm:text-4xl z-10">Annoucing Soon!</span>
+							<ul aria-hidden="true" class="grid gap-2 sm:grid-cols-2 opacity-25 pointer-events-none">
+								<li class="bg-stone-100 p-4 rounded drop-shadow-sm ">
+									<!-- speaker card -->
+									<div class="">
+										<h3 class="font-soggy text-4xl mb-2 leading-none blur-sm">Lorem ipsum dolor sit</h4>
+										<div>
+											<div class="leading-tight mb-2">
+												<span class="block text-3xl font-bold uppercase blur-sm">incidunt Nulla</span>
+												<span class="block text-lg uxok-text-blue-600 italic blur-sm">
+													<a href="#" class="uxok-text-blue-hover hover:underline">accusamus</a>
+												</span>
+											</div>
+											<!-- social -->
+											<div class="flex gap-3 blur-sm">
+												<a class="uxok-text-blue-hover hover:scale-110 transition" href="#">
+													<i class="fa-brands fa-lg fa-mastodon"></i>
+												</a>
+												<a class="uxok-text-blue-hover hover:scale-110 transition" href="#">
+													<i class="fa-brands fa-lg fa-figma"></i>
+												</a>
+											</div>
+										</div>
+									</div>
+								</li>
+								<li class="bg-stone-100 p-4 rounded drop-shadow-sm hidden sm:block">
+									<!-- speaker card -->
+									<div class="">
+										<h3 class="font-soggy text-4xl mb-2 leading-none blur-sm">Odio amet impedit </h4>
+										<div>
+											<div class="leading-tight mb-2">
+												<span class="block text-3xl font-bold uppercase blur-sm">dicta aut</span>
+												<span class="block text-lg uxok-text-blue-600 italic blur-sm">
+													<a href="#" class="uxok-text-blue-hover hover:underline">accusamus</a>
+												</span>
+											</div>
+											<!-- social -->
+											<div class="flex gap-3 blur-sm">
+												<a class="uxok-text-blue-hover hover:scale-110 transition" href="#">
+													<i class="fa-brands fa-lg fa-mastodon"></i>
+												</a>
+												<a class="uxok-text-blue-hover hover:scale-110 transition" href="#">
+													<i class="fa-brands fa-lg fa-figma"></i>
+												</a>
+											</div>
+										</div>
+									</div>
+								</li>
+								<li class="bg-stone-100 p-4 rounded drop-shadow-sm hidden md:block">
+									<!-- speaker card -->
+									<div class="">
+										<h3 class="font-soggy text-4xl mb-2 leading-none blur-sm">sint repud iandae </h4>
+										<div>
+											<div class="leading-tight mb-2">
+												<span class="block text-3xl font-bold uppercase blur-sm">ipsum dolor</span>
+												<span class="block text-lg uxok-text-blue-600 italic blur-sm">
+													<a href="#" class="uxok-text-blue-hover hover:underline">accusamus</a>
+												</span>
+											</div>
+											<!-- social -->
+											<div class="flex gap-3 blur-sm">
+												<a class="uxok-text-blue-hover hover:scale-110 transition" href="#">
+													<i class="fa-brands fa-lg fa-mastodon"></i>
+												</a>
+												<a class="uxok-text-blue-hover hover:scale-110 transition" href="#">
+													<i class="fa-brands fa-lg fa-figma"></i>
+												</a>
+											</div>
+										</div>
+									</div>
+								</li>
+								<li class="bg-stone-100 p-4 rounded drop-shadow-sm hidden md:block">
+									<!-- speaker card -->
+									<div class="">
+										<h3 class="font-soggy text-4xl mb-2 leading-none blur-sm">ab maiores dicta</h3>
+										<div>
+											<div class="leading-tight mb-2">
+												<span class="block text-3xl font-bold uppercase blur-sm">at aperiam</span>
+												<span class="block text-lg uxok-text-blue-600 italic blur-sm">
+													<a href="#" class="uxok-text-blue-hover hover:underline">accusamus</a>
+												</span>
+											</div>
+											<!-- social -->
+											<div class="flex gap-3 blur-sm">
+												<a class="uxok-text-blue-hover hover:scale-110 transition" href="#">
+													<i class="fa-brands fa-lg fa-mastodon"></i>
+												</a>
+												<a class="uxok-text-blue-hover hover:scale-110 transition" href="#">
+													<i class="fa-brands fa-lg fa-figma"></i>
+												</a>
+											</div>
+										</div>
+									</div>
+								</li>
+							</ul>
+						</div>
+						
+					</div>
+					<p></p>					
+				</div>
+			</section>
+			<section class="mb-8" id="sponsors">
+				<div class="container max-w-screen-md mx-auto text-left py-4 px-4 sm:px-8 border">
+					<div class="text-left mb-4"><h2 class="pt-16 font-soggy text-3xl sm:text-4xl md:text-5xl tracking-wide pr-1 border-stone-400 border-b border-b-2 pb-1 border-dashed inline-block uxok-text-blue-600">sponsors</h2></div>
+
+					<p class="mb-8">We thank our sponsors for their invaluable support in making the UXOK Conference a success and enhancing the experience for all attendees.</p>	
+					
+					<!-- Giveaway -->
+					<h3 class="font-soggy text-2xl tracking-wide uxok-text-blue-600 mb-4">GIVEAWAY SPONSOR</h3>
+					<a href="https://www.jetbrains.com/" class="block mb-12">
+						<img alt="Jet Brains software logo" class="block max-w-full w-60" src="/assets/images/2023/sponsors/sponsor-jet-brains.png" />
+					</a> 
+
+					<p class="mb-2">Interested in becoming a sponsor? </p>	
+					<a href="/sponsor-us" class="text-center w-full md:w-auto border border-4 text-stone-200 border-[#4F596D] bg-[#4F596D] px-8 py-2 inline-block text-xl bold font-soggy hover:bg-[#374258] hover:border-[#374258] hover:text-stone-200 transition hover:scale-105">Sponsor Us</a>
+				</div>
+			</section>
+			<section class="mb-8" id="faq">
+				<div class="container max-w-screen-md mx-auto text-left py-4 px-4 sm:px-8 border">
+					<div class="text-left mb-4"><h2 class="pt-16 font-soggy text-3xl sm:text-4xl md:text-5xl tracking-wide pr-1 border-stone-400 border-b border-b-2 pb-1 border-dashed inline-block uxok-text-blue-600">Frequently Asked Questions</h2></div>
+
+					<ul class="list-none">
+						<li class="mb-6" id="question-where">
+							<strong class="block text-lg uxok-text-blue bold">Where is the conference?</strong>
+							<a class="underline" href="https://skylinebricktown.com/">The Skyline on Bricktown Canal</a> event venus. Located in the downtown OKC, in the Bricktown neighborhood. It's above <a class="underline" href="https://www.vergeokc.com/">The Verge</a> co-working space. 
+						</li>
+						<li class="mb-6" id="question-new-to-ux">
+							<strong class="block text-lg uxok-text-blue bold">I’m new to UX. Is this conference for me?</strong>
+							Absolutely. Our conference covers subjects for all UX knowledge levels.
+						</li>
+						<li class="mb-6" id="question-network">
+							<strong class="block text-lg uxok-text-blue bold">Will I have a chance to network with other attendees?</strong>
+							Yes! After the conference, we host an optional after-party for attendees to meet up.
+						</li>
+						<!-- <li class="mb-6" id="question-">
+							<strong class="block text-lg uxok-text-blue bold">What airport should I use if flying in for the conference?</strong>
+							ANSWER_HERE
+						</li> -->
+						<!-- <li class="mb-6" id="question-">
+							<strong class="block text-lg uxok-text-blue bold">Once I'm in Tulsa, how should I get around?</strong>
+							ANSWER_HERE
+						</li> -->
+						<!-- <li class="mb-6" id="question-">
+							<strong class="block text-lg uxok-text-blue bold">What about hotels?</strong>
+							ANSWER_HERE
+						</li> -->
+						<!-- <li class="mb-6" id="question-">
+							<strong class="block text-lg uxok-text-blue bold">Where should I park for the event?</strong>
+							ANSWER_HERE
+						</li> -->
+						<li class="mb-6" id="question-food-provided">
+							<strong class="block text-lg uxok-text-blue bold">Will food be provided during the conference?</strong>
+							We will provide coffee, snacks, and drinks thru-out the day, and lunch including vegan and gluten-free options (please mark any restrictions on your ticket registration form).
+						</li>
+						<li class="mb-6" id="question-corporate-ticket">
+							<strong class="block text-lg uxok-text-blue bold">What's the difference in tickets?</strong>
+							The corporate ticket is if your company is paying for attendance to the conference. You will help keep the conference affordable for everyone, especially students and those requiring a travel grant. Government employees should also register at the corporate rate. The general admission ticket is for individual attendees or non-profit/military/education attendees.
+						</li>
+					</ul>
+					
+				</div>
+			</section>
+			<section class="mb-8" id="about">
+				<div class="container max-w-screen-md mx-auto text-left py-4 px-4 sm:px-8 border">
+					<div class="text-left mb-4"><h2 class="pt-16 font-soggy text-3xl sm:text-4xl md:text-5xl tracking-wide pr-1 border-stone-400 border-b border-b-2 pb-1 border-dashed inline-block uxok-text-blue-600">about</h2></div>
+					<p class="mb-2">Founded in 2021, UXOK is a design conference that focuses on user experience and related tech that make the web accessible, delightful, and functional.</p>
+					<p class="mb-2">UXOK is organized and backed by the <a class="underline" href="https://www.techlahoma.org/">Techlahoma Foundation</a> – a volunteer-run 501(c)3 non-profit. Techlahoma is dedicated to advancing Oklahomans through accessible tech training and community building.</p>					
+					<p class="mb-8">See previous conference webites: <a class="cursor-not-allowed underline opacity-25" href="#">2022</a>, <a class="underline" href="/archive/2021/">2021</a></p>
+					<div class="bg-stone-300 p-8 rounded">
+
+						<h3 class="font-soggy text-2xl tracking-wide uxok-text-blue-600 mb-2">Code of Conduct</h3>
+						<p>Before attending the conference, please review the <a class="underline" href="https://www.techlahoma.org/code-of-conduct/">Techlahoma Code of Conduct</a>. The Code of Conduct applies to all attendees, speakers, volunteers, and vendors at official and unofficial events by the <a class="underline" href="https://techlahoma.org/">Techlahoma Foundation</a> and any location where attendees may be congregating. Please <a class="underline" href="mailto:uxok@techlahoma.org">contact us</a> if you have questions.</p>
+
+					</div>
+					
+				</div>
+			</section>
+			<!-- <section class="mb-16" id="contact">
+				<div class="container max-w-screen-md mx-auto text-left py-4 px-4 sm:px-8 border">
+					<div class="text-left mb-4"><h2 class="pt-16 font-soggy text-3xl sm:text-4xl md:text-5xl tracking-wide pr-1 border-stone-400 border-b border-b-2 pb-1 border-dashed inline-block uxok-text-blue-600">contact	</h2></div>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio amet impedit placeat ab maiores dicta aut, eius accusamus at aperiam iste velit reiciendis molestiae incidunt nulla debitis sint repudiandae quisquam.</p>					
+				</div>
+			</section> -->
 		</main>
-		<footer class=" mt-16 md:mt-24 text-center  uppercase ">
-			&copy; 2023 <strong><a href="https://www.techlahoma.org/">Techlahoma Foundation</a></strong>. All rights reserved
+		<div class="px-8 text-center mt-8">
+			<img alt="" class="block max-w-full mx-auto" src="/assets/images/2023/rope.gif" alt="">
+		</div>
+		<footer class=" mt-4 md:mt-8 pb-8 text-center  uppercase ">
+			&copy; 2021 - 2023 <strong><a href="https://www.techlahoma.org/">Techlahoma Foundation</a></strong>. All rights reserved
 		</footer>
 
 		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-101276171-3"></script>

@@ -1,3 +1,12 @@
+:root {
+  --uxok-blue: #4F596D;
+  --uxok-blue-100: #EAF0F7;
+  --uxok-blue-300: #B0BED3;
+  --uxok-blue-600: #39445D;
+  --uxok-blue-900: #19213F;
+}
+
+
 html {
   box-sizing: border-box;
 }
@@ -18,4 +27,40 @@ html {
   opacity: 1;
   background-image:  linear-gradient(#5a6579 1.2000000000000002px, transparent 1.2000000000000002px), linear-gradient(to right, #5a6579 1.2000000000000002px, #4F596D 1.2000000000000002px);
   background-size: 24px 24px;
+}
+
+.uxok-bg-blue-100 {
+  background-color: var(--uxok-blue-100);
+}
+
+.uxok-bg-blue-300 {
+  background-color: var(--uxok-blue-300);
+}
+
+.uxok-bg-blue-900 {
+  background-color: var(--uxok-blue-900);
+}
+
+.uxok-text-blue {
+  color: var(--uxok-blue);
+}
+
+.uxok-text-blue-hover:hover {
+  color: var(--uxok-blue);
+}
+
+.uxok-text-blue-300 {
+  color: var(--uxok-blue-300);
+}
+
+.uxok-text-blue-600 {
+  color: var(--uxok-blue-600);
+}
+
+.uxok-text-blue-900 {
+  color: var(--uxok-blue-900);
+}
+
+.uxok-border-bottom {
+  border-bottom: dashed 1px var(--uxok-blue);
 }
