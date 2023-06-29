@@ -617,6 +617,10 @@ video {
   margin-top: 2rem;
 }
 
+.mr-2 {
+  margin-right: 0.5rem;
+}
+
 .block {
   display: block;
 }
@@ -647,10 +651,6 @@ video {
 
 .h-1 {
   height: 0.25rem;
-}
-
-.h-48 {
-  height: 12rem;
 }
 
 .w-60 {
@@ -731,6 +731,10 @@ video {
 
 .gap-8 {
   gap: 2rem;
+}
+
+.gap-2 {
+  gap: 0.5rem;
 }
 
 .scroll-smooth {
@@ -1151,18 +1155,6 @@ p {
 
   .md\:mt-8 {
     margin-top: 2rem;
-  }
-
-  .md\:aspect-auto {
-    aspect-ratio: auto;
-  }
-
-  .md\:h-auto {
-    height: auto;
-  }
-
-  .md\:w-\[200px\] {
-    width: 200px;
   }
 
   .md\:w-auto {
