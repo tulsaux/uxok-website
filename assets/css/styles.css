@@ -641,6 +641,10 @@ video {
   display: none;
 }
 
+.aspect-square {
+  aspect-ratio: 1 / 1;
+}
+
 .h-1 {
   height: 0.25rem;
 }
@@ -1104,6 +1108,22 @@ p {
     display: block;
   }
 
+  .sm\:aspect-auto {
+    aspect-ratio: auto;
+  }
+
+  .sm\:h-auto {
+    height: auto;
+  }
+
+  .sm\:w-\[200px\] {
+    width: 200px;
+  }
+
+  .sm\:flex-row {
+    flex-direction: row;
+  }
+
   .sm\:p-8 {
     padding: 2rem;
   }
@@ -1131,6 +1151,10 @@ p {
 
   .md\:mt-8 {
     margin-top: 2rem;
+  }
+
+  .md\:aspect-auto {
+    aspect-ratio: auto;
   }
 
   .md\:h-auto {
