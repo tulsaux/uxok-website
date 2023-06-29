@@ -1,0 +1,16 @@
+{
+  "name": "uxok-website",
+  "version": "1.0.0",
+  "description": "[![Netlify Status](https://api.netlify.com/api/v1/badges/96c00307-bdc5-450d-b130-1664d3763720/deploy-status)](https://app.netlify.com/sites/heuristic-payne-d123b2/deploys)",
+  "devDependencies": {
+    "tailwindcss": "^3.3.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tailwind": "npx tailwindcss -i ./assets/css/input.css -o ./assets/css/styles.css --watch",
+    "serve": "npx browser-sync start --server --files '*.html, js/*.js'",
+    "start": "npm run serve"
+  },
+  "author": "",
+  "license": "ISC"
+}
