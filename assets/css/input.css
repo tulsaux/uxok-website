@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 :root {
   --uxok-blue: #4F596D;
   --uxok-blue-100: #EAF0F7;
@@ -14,6 +18,10 @@ html {
   box-sizing: inherit;
 }
 
+p {
+  line-height: 1.2rem;
+}
+
 /* Fonts */
 
 .logo span {
@@ -21,7 +29,6 @@ html {
 }
 
 /* Background */
-
 .background {
   background-color: #4F596D;
   opacity: 1;
