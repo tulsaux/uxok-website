@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 :root {
   --uxok-blue: #4F596D;
   --uxok-blue-100: #EAF0F7;
