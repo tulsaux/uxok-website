@@ -1,15 +1,19 @@
+
+# Redirect to https://www.techlahoma.org/conferences
+/               https://www.techlahoma.org/conferences
+/index.html     https://www.techlahoma.org/conferences
+
 # Redirects from what the browser requests to what we serve
 # /youtube	    https://www.youtube.com/watch?v=5Sr54yqEGos
-# /twitch		    https://www.twitch.tv/techlahoma
-# /survey		    https://forms.gle/fz92c7qn8VMv4Z9n7
+# /twitch	    https://www.twitch.tv/techlahoma
+# /survey	    https://forms.gle/fz92c7qn8VMv4Z9n7
 # /meet		    https://meet.google.com/jgg-xdrn-dqv
-# /networking	    https://meet.google.com/jgg-xdrn-dqv
-
-/register	    https://www.eventbrite.com/e/uxok-design-conference-tickets-634821938507
-/tickets        https://www.eventbrite.com/e/uxok-design-conference-tickets-634821938507
-/papercall      https://www.papercall.io/uxok2023
-/submit-talk    https://www.papercall.io/uxok2023
-/sponsor        https://drive.google.com/file/d/19be40Qsmer3PW7ud4vreYMYkcRdcahX9/view?usp=share_link
-/sponsor-us        https://drive.google.com/file/d/19be40Qsmer3PW7ud4vreYMYkcRdcahX9/view?usp=share_link
-# /online        https://fansub.live/e/uxokdesignconference
-# /survey        https://docs.google.com/forms/d/e/1FAIpQLSda5ETy6mKi4_56eL02N9wUyoDPpY_2XomBflnj9d58BsWC2Q/viewform?usp=sf_link
+# /networking   https://meet.google.com/jgg-xdrn-dqv
+# /online       https://fansub.live/e/uxokdesignconference
+# /survey       https://docs.google.com/forms/d/e/1FAIpQLSda5ETy6mKi4_56eL02N9wUyoDPpY_2XomBflnj9d58BsWC2Q/viewform?usp=sf_link
+# /register	    https://www.eventbrite.com/e/uxok-design-conference-tickets-634821938507
+# /tickets        https://www.eventbrite.com/e/uxok-design-conference-tickets-634821938507
+# /papercall      https://www.papercall.io/uxok2023
+# /submit-talk    https://www.papercall.io/uxok2023
+# /sponsor        https://drive.google.com/file/d/19be40Qsmer3PW7ud4vreYMYkcRdcahX9/view?usp=share_link
+# /sponsor-us     https://drive.google.com/file/d/19be40Qsmer3PW7ud4vreYMYkcRdcahX9/view?usp=share_link
