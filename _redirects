@@ -1,4 +1,9 @@
-/ https://www.techlahoma.org/conferences 01!
+/  01!
+
+http://www.uxok.org/* https://www.techlahoma.org/conferences:splat 301!
+https://www.uxok.org/* https://www.techlahoma.org/conferences:splat 301!
+http://uxok.org/* https://www.techlahoma.org/conferences:splat 301!
+https://uxok.org/* https://www.techlahoma.org/conferences:splat 301!
 
 # Redirect to https://www.techlahoma.org/conferences
 # /index.html     https://www.techlahoma.org/conferences 01!
